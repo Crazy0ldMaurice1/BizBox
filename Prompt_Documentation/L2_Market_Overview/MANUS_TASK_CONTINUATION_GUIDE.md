@@ -34,7 +34,7 @@
 ### 1. IMMEDIATE ACTIONS REQUIRED
 ```bash
 # Clone repository if not already available
-git clone https://[GITHUB_TOKEN_PROVIDED_BY_USER]@github.com/Crazy0ldMaurice1/BizBox.git
+git clone https://[GITHUB_TOKEN]@github.com/Crazy0ldMaurice1/BizBox.git
 
 # Navigate to working directory
 cd BizBox/Data_Generation/L2_Market_Overview/
