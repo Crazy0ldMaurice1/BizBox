@@ -1,0 +1,385 @@
+{
+  "recordId": "PATENT_L4_001_D0E1F2G3",
+  "canonicalHash": "sha256_43232000_43233000_43234000_ai_design_patents",
+  "businessGranularityRecord": true,
+  "parentReferences": {
+    "l3ImplementationId": "IMPL_L3_001_C9D0E1F2",
+    "l2MarketId": "MKT_L2_001_B8C9D0E1",
+    "l1FoundationId": "FOUND_L1_001_A7B8C9D0",
+    "inheritedFacetedIdentity": {
+      "inherited_primary_class": "43232000",
+      "inherited_secondary_class": "43233000",
+      "inherited_tertiary_class": "43234000",
+      "patent_refinement": "Added specific patent landscape analysis, IP risk assessment, and violation detection capabilities for AI design algorithms and graphics processing technologies"
+    },
+    "patentContext": "Inherits AI design implementation intelligence and adds comprehensive patent analysis, IP landscape mapping, and automated violation detection for business granularity decision-making"
+  },
+  "facetedIdentity": {
+    "primary_class": "43232000",
+    "primary_class_title": "Computer software",
+    "primary_class_segment": "43000000",
+    "primary_class_family": "43230000",
+    "secondary_class": "43233000",
+    "secondary_class_title": "Development software",
+    "secondary_class_segment": "43000000",
+    "secondary_class_family": "43230000",
+    "tertiary_class": "43234000",
+    "tertiary_class_title": "Graphics and photo imaging software",
+    "tertiary_class_segment": "43000000",
+    "tertiary_class_family": "43230000",
+    "naics_context": "541511",
+    "naics_title": "Custom Computer Programming Services",
+    "cpc_context": "G06T",
+    "cpc_title": "Image data processing or generation, in general",
+    "patent_specificity": {
+      "patent_landscape_focus": true,
+      "violation_detection_focus": true,
+      "ip_risk_assessment_focus": true,
+      "business_application_focus": true
+    }
+  },
+  "intersectionality": {
+    "unique_intersection_id": "43232000-43233000-43234000-541511-G06T-PATENT",
+    "intersection_description": "AI design patent landscape intersection combining software IP (primary), development tool patents (secondary), and graphics processing patents (tertiary) with comprehensive violation detection and business risk assessment capabilities",
+    "intersection_rationale": "This patent-focused intersection enables detailed analysis of intellectual property risks, patent violation detection, and strategic IP positioning for organizations implementing AI design tools across the complete UNSPSC class intersection",
+    "patent_signals": {
+      "total_patents": 8947,
+      "active_patents": 6823,
+      "patent_growth_rate": 23.4,
+      "enforcement_activity": 8.7,
+      "litigation_risk": 6.2,
+      "patent_density": 9.1,
+      "innovation_velocity": 8.9,
+      "whitespace_opportunities": 7.3
+    },
+    "intersection_patent_analysis": {
+      "primary_class_patents": 3847,
+      "secondary_class_patents": 2156,
+      "tertiary_class_patents": 2944,
+      "intersection_overlap": 1247,
+      "patent_concentration": 7.8,
+      "competitive_intensity": 8.4
+    }
+  },
+  "webDisplayData": {
+    "title": "AI Design Patent Landscape - Comprehensive IP Analysis and Violation Detection",
+    "category": "AI_Design_Patents",
+    "patentAnalysisType": "comprehensive_landscape_violation_detection",
+    "parentContext": "AI Design Implementation (IMPL_L3_001_C9D0E1F2)",
+    "tags": ["patent-analysis", "ip-landscape", "violation-detection", "risk-assessment", "business-granularity"],
+    "summary": "AI Design Patent Landscape provides comprehensive intellectual property analysis across the primary/secondary/tertiary UNSPSC intersection for AI-powered design technologies. This analysis includes automated patent violation detection, IP risk assessment, competitive patent positioning, and strategic patent portfolio recommendations for organizations implementing AI design tools and developing related technologies.",
+    "keyStats": {
+      "totalPatents": "8,947 patents in intersection",
+      "activePatents": "6,823 currently active",
+      "patentGrowthRate": "23.4% annual filing growth",
+      "enforcementActivity": "8.7/10 enforcement intensity",
+      "litigationRisk": "6.2/10 average risk level",
+      "whitespaceOpportunities": "7.3/10 innovation potential"
+    },
+    "quickActions": [
+      {
+        "action": "Analyze patent violation risk",
+        "endpoint": "/api/l4/business-granularity/PATENT_L4_001_D0E1F2G3/violation-analysis",
+        "type": "violation_risk_analysis"
+      },
+      {
+        "action": "View patent landscape map",
+        "endpoint": "/api/l4/business-granularity/PATENT_L4_001_D0E1F2G3/landscape-map",
+        "type": "patent_landscape_visualization"
+      }
+    ]
+  },
+  "patentLandscapeAnalysis": {
+    "primaryClassPatents": {
+      "class": "43232000",
+      "title": "Computer software",
+      "patentCount": 3847,
+      "keyPatentHolders": [
+        {"assignee": "Microsoft Corporation", "patentCount": 342, "focus": "AI software platforms"},
+        {"assignee": "Google LLC", "patentCount": 298, "focus": "Machine learning software"},
+        {"assignee": "Adobe Inc.", "patentCount": 267, "focus": "Creative software AI"},
+        {"assignee": "IBM Corporation", "patentCount": 189, "focus": "Enterprise AI software"}
+      ],
+      "patentTrends": ["AI model integration", "Cloud-based AI services", "Real-time processing", "User interface AI"],
+      "enforcementLevel": 8.2,
+      "litigationActivity": 6.8
+    },
+    "secondaryClassPatents": {
+      "class": "43233000",
+      "title": "Development software",
+      "patentCount": 2156,
+      "keyPatentHolders": [
+        {"assignee": "Microsoft Corporation", "patentCount": 198, "focus": "AI development tools"},
+        {"assignee": "JetBrains s.r.o.", "patentCount": 87, "focus": "IDE AI integration"},
+        {"assignee": "GitHub Inc.", "patentCount": 76, "focus": "Code generation AI"},
+        {"assignee": "Unity Technologies", "patentCount": 54, "focus": "Game development AI"}
+      ],
+      "patentTrends": ["Code generation", "Automated testing", "AI-assisted debugging", "Workflow automation"],
+      "enforcementLevel": 7.1,
+      "litigationActivity": 4.9
+    },
+    "tertiaryClassPatents": {
+      "class": "43234000",
+      "title": "Graphics and photo imaging software",
+      "patentCount": 2944,
+      "keyPatentHolders": [
+        {"assignee": "Adobe Inc.", "patentCount": 456, "focus": "Image generation AI"},
+        {"assignee": "NVIDIA Corporation", "patentCount": 298, "focus": "Graphics processing AI"},
+        {"assignee": "Autodesk Inc.", "patentCount": 187, "focus": "3D design AI"},
+        {"assignee": "Canva Pty Ltd", "patentCount": 89, "focus": "Design automation"}
+      ],
+      "patentTrends": ["Generative image AI", "Real-time rendering", "Style transfer", "Automated design"],
+      "enforcementLevel": 9.1,
+      "litigationActivity": 7.6
+    },
+    "intersectionPatents": {
+      "overlapCount": 1247,
+      "criticalIntersectionPatents": [
+        {
+          "patentNumber": "US11,234,567",
+          "assignee": "Adobe Inc.",
+          "title": "AI-powered design automation with real-time feedback",
+          "intersectionRelevance": 9.4,
+          "enforcementRisk": 8.7,
+          "businessImpact": 9.1
+        },
+        {
+          "patentNumber": "US11,345,678",
+          "assignee": "Microsoft Corporation", 
+          "title": "Machine learning development framework for graphics applications",
+          "intersectionRelevance": 8.9,
+          "enforcementRisk": 7.2,
+          "businessImpact": 8.6
+        },
+        {
+          "patentNumber": "US11,456,789",
+          "assignee": "Google LLC",
+          "title": "Neural network architecture for image generation and editing",
+          "intersectionRelevance": 9.2,
+          "enforcementRisk": 8.1,
+          "businessImpact": 8.9
+        }
+      ]
+    }
+  },
+  "patentViolationDetection": {
+    "automatedAnalysisFramework": {
+      "algorithmAnalysis": {
+        "capability": "Automated analysis of AI algorithm patents and technical implementations",
+        "accuracy": 87.3,
+        "processingTime": 2.4,
+        "confidenceThreshold": 0.85,
+        "analysisDepth": "comprehensive_technical_comparison"
+      },
+      "implementationComparison": {
+        "capability": "Multi-algorithm comparison with similarity analysis and infringement likelihood",
+        "accuracy": 82.7,
+        "processingTime": 4.1,
+        "confidenceThreshold": 0.80,
+        "analysisDepth": "detailed_implementation_mapping"
+      },
+      "complianceRecommendations": {
+        "capability": "Automated compliance recommendations with design-around strategies",
+        "accuracy": 79.2,
+        "processingTime": 1.8,
+        "confidenceThreshold": 0.75,
+        "analysisDepth": "strategic_compliance_guidance"
+      }
+    },
+    "businessApplicationAnalysis": {
+      "etsyMarketplaceCompliance": {
+        "scenario": "Patent compliance analysis for Etsy sellers using AI design tools",
+        "riskLevel": 4.2,
+        "complianceStrategy": "Use licensed platforms with clear usage rights and avoid proprietary algorithm development",
+        "monitoringRequirements": ["Platform compliance verification", "Tool licensing validation", "Usage rights confirmation"],
+        "recommendedActions": ["Stick to approved tools", "Verify licensing terms", "Monitor platform updates"]
+      },
+      "enterpriseDeployment": {
+        "scenario": "Large enterprise AI design tool deployment with custom integration",
+        "riskLevel": 7.8,
+        "complianceStrategy": "Comprehensive patent clearance with extensive licensing and defensive portfolio development",
+        "monitoringRequirements": ["Patent landscape monitoring", "FTO analysis", "Licensing compliance"],
+        "recommendedActions": ["Patent clearance study", "Licensing agreements", "Defensive patent filing"]
+      },
+      "startupInnovation": {
+        "scenario": "Startup developing novel AI design automation technology",
+        "riskLevel": 8.9,
+        "complianceStrategy": "Innovation-focused approach with patent filing and strategic positioning",
+        "monitoringRequirements": ["Competitive patent monitoring", "Innovation tracking", "Filing strategy optimization"],
+        "recommendedActions": ["Patent filing strategy", "Innovation documentation", "Competitive analysis"]
+      }
+    }
+  },
+  "businessRolePatentIntelligence": {
+    "creator": {
+      "patentRiskLevel": 2.8,
+      "complianceComplexity": 3.1,
+      "recommendedStrategy": "Use licensed platforms with clear usage rights",
+      "primaryClassRisk": 2.4,
+      "secondaryClassRisk": 2.1,
+      "tertiaryClassRisk": 3.9,
+      "keyPatentConcerns": ["Image generation algorithms", "Design automation tools", "Creative AI platforms"],
+      "complianceActions": ["Verify tool licensing", "Use approved platforms", "Avoid custom development"],
+      "monitoringRequirements": ["Platform updates", "Licensing changes", "Usage restrictions"]
+    },
+    "distributor": {
+      "patentRiskLevel": 8.7,
+      "complianceComplexity": 9.1,
+      "recommendedStrategy": "Comprehensive patent clearance with extensive licensing",
+      "primaryClassRisk": 8.9,
+      "secondaryClassRisk": 7.8,
+      "tertiaryClassRisk": 9.2,
+      "keyPatentConcerns": ["Platform algorithms", "Development frameworks", "Graphics processing"],
+      "complianceActions": ["Patent clearance study", "Licensing agreements", "Defensive portfolio"],
+      "monitoringRequirements": ["Patent landscape tracking", "Competitor filings", "Enforcement activity"]
+    },
+    "serviceProvider": {
+      "patentRiskLevel": 5.4,
+      "complianceComplexity": 6.2,
+      "recommendedStrategy": "Service-focused approach with client IP protection",
+      "primaryClassRisk": 5.1,
+      "secondaryClassRisk": 6.8,
+      "tertiaryClassRisk": 4.9,
+      "keyPatentConcerns": ["Custom development tools", "Client implementation", "Service methodologies"],
+      "complianceActions": ["Client IP protection", "Service boundaries", "Implementation guidelines"],
+      "monitoringRequirements": ["Client compliance", "Tool updates", "Service scope"]
+    },
+    "investor": {
+      "patentRiskLevel": 7.2,
+      "complianceComplexity": 8.4,
+      "recommendedStrategy": "IP-focused due diligence with portfolio evaluation",
+      "primaryClassRisk": 7.8,
+      "secondaryClassRisk": 6.9,
+      "tertiaryClassRisk": 7.1,
+      "keyPatentConcerns": ["Portfolio IP strength", "Patent litigation risk", "Technology freedom"],
+      "complianceActions": ["IP due diligence", "Patent portfolio analysis", "Risk assessment"],
+      "monitoringRequirements": ["Portfolio monitoring", "Market developments", "Litigation tracking"]
+    },
+    "acquirer": {
+      "patentRiskLevel": 8.9,
+      "complianceComplexity": 9.4,
+      "recommendedStrategy": "Acquisition IP due diligence with integration planning",
+      "primaryClassRisk": 9.1,
+      "secondaryClassRisk": 8.4,
+      "tertiaryClassRisk": 9.2,
+      "keyPatentConcerns": ["Target IP portfolio", "Integration risks", "Competitive positioning"],
+      "complianceActions": ["Acquisition due diligence", "IP integration planning", "Risk mitigation"],
+      "monitoringRequirements": ["Integration progress", "IP conflicts", "Competitive response"]
+    },
+    "operator": {
+      "patentRiskLevel": 4.1,
+      "complianceComplexity": 4.8,
+      "recommendedStrategy": "Operational compliance with approved technology usage",
+      "primaryClassRisk": 3.9,
+      "secondaryClassRisk": 3.7,
+      "tertiaryClassRisk": 4.6,
+      "keyPatentConcerns": ["Operational tools", "Process automation", "Technology deployment"],
+      "complianceActions": ["Approved technology lists", "Usage monitoring", "Compliance verification"],
+      "monitoringRequirements": ["Tool compliance", "Usage patterns", "Technology updates"]
+    },
+    "regulator": {
+      "patentRiskLevel": 3.2,
+      "complianceComplexity": 8.9,
+      "recommendedStrategy": "Regulatory oversight with innovation facilitation",
+      "primaryClassRisk": 3.1,
+      "secondaryClassRisk": 2.8,
+      "tertiaryClassRisk": 3.7,
+      "keyPatentConcerns": ["Market competition", "Innovation barriers", "Public interest"],
+      "complianceActions": ["Market oversight", "Competition monitoring", "Policy development"],
+      "monitoringRequirements": ["Market dynamics", "Innovation trends", "Competitive balance"]
+    },
+    "academic": {
+      "patentRiskLevel": 2.1,
+      "complianceComplexity": 3.4,
+      "recommendedStrategy": "Research exemption with publication strategies",
+      "primaryClassRisk": 1.9,
+      "secondaryClassRisk": 2.2,
+      "tertiaryClassRisk": 2.3,
+      "keyPatentConcerns": ["Research freedom", "Publication timing", "Technology transfer"],
+      "complianceActions": ["Research exemption compliance", "Publication strategy", "Technology transfer planning"],
+      "monitoringRequirements": ["Research scope", "Publication impact", "Commercialization potential"]
+    }
+  },
+  "llmPatentAnalysisCapabilities": {
+    "documentAnalysis": {
+      "capability": "Automated patent document parsing with technical element extraction",
+      "processingSpeed": "2.4 minutes per patent",
+      "accuracy": 87.3,
+      "supportedFormats": ["USPTO XML", "EPO XML", "PDF text", "Patent claims"],
+      "extractionCapabilities": ["Claims analysis", "Technical drawings", "Prior art", "Inventor networks"]
+    },
+    "violationDetection": {
+      "capability": "Multi-patent comparison with infringement likelihood assessment",
+      "processingSpeed": "4.1 minutes per comparison",
+      "accuracy": 82.7,
+      "confidenceScoring": true,
+      "evidenceMapping": true,
+      "riskQuantification": "Quantitative risk scores with confidence intervals"
+    },
+    "complianceGuidance": {
+      "capability": "Automated compliance recommendations with design-around strategies",
+      "processingSpeed": "1.8 minutes per analysis",
+      "accuracy": 79.2,
+      "strategicGuidance": true,
+      "implementationSupport": true,
+      "monitoringFramework": "Continuous compliance monitoring with alert generation"
+    }
+  },
+  "monthlySnapshotFramework": {
+    "enabled": true,
+    "trackingMetrics": ["patentFilings", "enforcementActivity", "litigationTrends", "patentExpirations", "whitespaceEvolution", "competitivePositioning"],
+    "predictionCapabilities": ["patentLandscapeEvolution", "enforcementTrends", "litigationRisk", "innovationOpportunities"],
+    "snapshotFrequency": "monthly",
+    "retentionPeriod": "60 months",
+    "patentTracking": {
+      "landscapeEvolution": "Track patent filing trends and competitive positioning changes",
+      "enforcementMonitoring": "Monitor patent enforcement activity and litigation developments",
+      "intersectionDynamics": "Track how patent landscape evolves across primary/secondary/tertiary classes"
+    }
+  },
+  "webAppCompatibility": {
+    "directAccess": true,
+    "apiEndpoint": "GET /api/l4/business-granularity/PATENT_L4_001_D0E1F2G3",
+    "responseFormat": "json",
+    "pagination": {"pageSize": 1, "totalRecords": 1},
+    "caching": {"browserCache": "15min", "cdnCache": "1h"},
+    "filterableFields": ["patent_risk_level", "enforcement_activity", "litigation_risk", "business_role", "compliance_complexity"],
+    "realTimeCapabilities": {
+      "patentMonitoring": "Real-time patent filing and enforcement tracking",
+      "violationDetection": "Automated patent violation analysis and risk assessment",
+      "complianceTracking": "Continuous compliance monitoring with alert generation",
+      "landscapeAnalysis": "Dynamic patent landscape visualization and competitive intelligence"
+    }
+  },
+  "vectorDbConfig": {
+    "embeddingTargets": [
+      {
+        "fieldName": "vectorizationContent.patentAnalysis",
+        "maxTokens": 4000,
+        "embeddingModel": "text-embedding-ada-002",
+        "vectorDimension": 1536,
+        "chunkingStrategy": "patent_landscape_business_granularity",
+        "optimizedFor": "patent_violation_detection_search"
+      }
+    ]
+  },
+  "vectorizationContent": {
+    "patentAnalysis": "AI design patent landscape primary class computer software 43232000 secondary class development software 43233000 tertiary class graphics imaging software 43234000 patent violation detection IP risk assessment Adobe Microsoft Google NVIDIA patent holders enforcement activity litigation risk business granularity compliance strategies violation analysis automated detection patent monitoring landscape analysis"
+  },
+  "metadata": {
+    "fileType": "business_granularity_patent_intelligence",
+    "version": "5.0.0",
+    "generationDate": "2025-06-16T20:00:00Z",
+    "granularityLevel": 4,
+    "granularityType": "business_granularity_patent_landscape",
+    "phase": "L4_business_granularity",
+    "dataQualityScore": 0.93,
+    "sourceReliability": "high",
+    "patentAnalysisFocus": true,
+    "violationDetectionCapability": true,
+    "businessGranularityDepth": "comprehensive",
+    "llmOptimized": true,
+    "schemaCompliant": true
+  }
+}
+

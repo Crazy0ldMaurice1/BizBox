@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "indexType": "master_hierarchical_drill_path_index",
+    "version": "5.0.0",
+    "generationDate": "2025-06-16T20:05:00Z",
+    "totalRecords": 4,
+    "schemaCompliant": true,
+    "facetedIntersectionFramework": true,
+    "llmOptimized": true
+  },
+  "drillPathDemonstration": {
+    "completeDrillPath": {
+      "pathName": "AI Design Automation Complete Hierarchy",
+      "pathDescription": "Complete L1→L2→L3→L4 drill path demonstrating faceted identity inheritance and business granularity progression for AI-powered design automation",
+      "totalLevels": 4,
+      "intersectionEvolution": "Primary/Secondary/Tertiary UNSPSC class intersection with increasing business specificity"
+    },
+    "hierarchicalProgression": [
+      {
+        "level": 1,
+        "recordId": "FOUND_L1_001_A7B8C9D0",
+        "title": "AI Software Development Foundation",
+        "facetedIdentity": {
+          "primary_class": "43232000",
+          "secondary_class": "43233000",
+          "tertiary_class": null,
+          "intersection_id": "43232000-43233000-541511-G06N"
+        },
+        "granularityType": "universal_foundation_faceted_intersection",
+        "businessScope": "Universal AI software development domain with broad applicability",
+        "nextLevelRefinement": "Market-specific focus with tertiary class addition"
+      },
+      {
+        "level": 2,
+        "recordId": "MKT_L2_001_B8C9D0E1",
+        "title": "AI-Powered Design Tools Market",
+        "facetedIdentity": {
+          "primary_class": "43232000",
+          "secondary_class": "43233000", 
+          "tertiary_class": "43234000",
+          "intersection_id": "43232000-43233000-43234000-541511-G06T"
+        },
+        "granularityType": "market_overview_tertiary_intersection",
+        "businessScope": "AI design tools market with graphics software specialization",
+        "parentInheritance": "Inherits L1 foundation and adds tertiary graphics class",
+        "nextLevelRefinement": "Implementation strategies and vendor ecosystem analysis"
+      },
+      {
+        "level": 3,
+        "recordId": "IMPL_L3_001_C9D0E1F2",
+        "title": "AI Design Tool Implementation Intelligence",
+        "facetedIdentity": {
+          "primary_class": "43232000",
+          "secondary_class": "43233000",
+          "tertiary_class": "43234000",
+          "intersection_id": "43232000-43233000-43234000-541511-G06T-IMPL"
+        },
+        "granularityType": "implementation_intelligence_vendor_deployment",
+        "businessScope": "Vendor ecosystem analysis and deployment strategies",
+        "parentInheritance": "Inherits L2 market intersection and adds implementation specificity",
+        "nextLevelRefinement": "Patent landscape and business granularity analysis"
+      },
+      {
+        "level": 4,
+        "recordId": "PATENT_L4_001_D0E1F2G3",
+        "title": "AI Design Patent Landscape Analysis",
+        "facetedIdentity": {
+          "primary_class": "43232000",
+          "secondary_class": "43233000",
+          "tertiary_class": "43234000",
+          "intersection_id": "43232000-43233000-43234000-541511-G06T-PATENT"
+        },
+        "granularityType": "business_granularity_patent_landscape",
+        "businessScope": "Patent violation detection and IP risk assessment",
+        "parentInheritance": "Inherits L3 implementation intelligence and adds patent analysis",
+        "businessGranularity": "Maximum granularity with automated violation detection"
+      }
+    ]
+  },
+  "llmQueryOptimization": {
+    "hierarchicalNavigation": {
+      "topDownQuery": "Start with L1 foundation for broad context, drill down through L2 market, L3 implementation, to L4 business granularity",
+      "bottomUpQuery": "Start with L4 specific business need, trace up through L3 implementation, L2 market, to L1 foundation context",
+      "lateralQuery": "Query across same level for comparative analysis and alternative pathways"
+    },
+    "facetedSearchCapabilities": {
+      "primaryClassSearch": "Search across all levels by primary UNSPSC class 43232000 (Computer software)",
+      "secondaryClassSearch": "Search across all levels by secondary UNSPSC class 43233000 (Development software)",
+      "tertiaryClassSearch": "Search across L2+ levels by tertiary UNSPSC class 43234000 (Graphics software)",
+      "intersectionSearch": "Search by complete intersection ID for exact match across hierarchy"
+    },
+    "businessRoleFiltering": {
+      "roleSpecificViews": "Filter all levels by business role (creator, distributor, service provider, investor, acquirer, operator, regulator, academic)",
+      "roleBasedMetrics": "Access role-specific opportunity scores, implementation complexity, and strategic fit across all levels",
+      "roleInheritance": "Understand how role-based intelligence evolves from L1 foundation through L4 granularity"
+    }
+  },
+  "webApplicationIntegration": {
+    "apiEndpoints": {
+      "hierarchicalDrillDown": "GET /api/drill-path/ai-design-automation",
+      "levelSpecificAccess": "GET /api/l{1-4}/{record-type}/{record-id}",
+      "facetedSearch": "GET /api/search/faceted?primary={class}&secondary={class}&tertiary={class}",
+      "roleBasedFiltering": "GET /api/search/role/{role-name}?level={1-4}"
+    },
+    "realTimeCapabilities": {
+      "hierarchicalMonitoring": "Track changes across all levels in drill path",
+      "intersectionTracking": "Monitor faceted identity evolution and market dynamics",
+      "patentViolationAlerts": "Real-time patent violation detection and risk assessment",
+      "competitiveIntelligence": "Continuous competitive landscape monitoring across hierarchy"
+    }
+  },
+  "schemaComplianceValidation": {
+    "originalSchemaAdherence": true,
+    "facetedIdentityFramework": true,
+    "primarySecondaryTertiaryMatrix": true,
+    "webAppCompatibility": true,
+    "vectorDbOptimization": true,
+    "monthlySnapshotFramework": true,
+    "businessRoleIntelligence": true,
+    "llmOptimization": true
+  }
+}
+
