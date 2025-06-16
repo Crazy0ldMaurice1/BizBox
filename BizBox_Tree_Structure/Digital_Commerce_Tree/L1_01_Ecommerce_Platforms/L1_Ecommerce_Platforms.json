@@ -1,0 +1,235 @@
+{
+  "recordId": "FOUND_L1_001_ECOMMERCE_PLATFORMS",
+  "canonicalHash": "sha256_ecommerce_platforms_foundation_43230000_44120000",
+  "universalFoundationRecord": true,
+  "hierarchyLevel": 1,
+  "parentReferences": {
+    "l0ParentId": "ROOT_L0_001_DIGITAL_COMMERCE",
+    "inheritanceContext": "Inherits digital commerce foundation and specializes in e-commerce platform technologies and marketplace operations"
+  },
+  "childrenReferences": {
+    "l2Children": [
+      "MKT_L2_001_MARKETPLACE_PLATFORMS",
+      "MKT_L2_002_DIRECT_COMMERCE", 
+      "MKT_L2_003_SOCIAL_COMMERCE"
+    ],
+    "totalDescendants": 39
+  },
+  "facetedIdentity": {
+    "primary_class": "43230000",
+    "primary_class_title": "Computer software and accessories",
+    "secondary_class": "44120000", 
+    "secondary_class_title": "Retail trade services",
+    "tertiary_class": "43233000",
+    "tertiary_class_title": "Development software",
+    "naics_context": "454110",
+    "naics_title": "Electronic Shopping and Mail-Order Houses",
+    "cpc_context": "G06Q30",
+    "cpc_title": "Commerce"
+  },
+  "intersectionality": {
+    "unique_intersection_id": "43230000-44120000-43233000-454110-G06Q30",
+    "intersection_description": "E-commerce platform foundation combining software platforms with retail services and development tools in electronic commerce context",
+    "intersection_rationale": "This intersection captures the convergence of platform technology, retail operations, and development capabilities required for modern e-commerce ecosystems",
+    "foundation_signals": {
+      "global_market_size": 2847.3,
+      "annual_growth_rate": 18.2,
+      "platform_count": 156000,
+      "merchant_adoption": 89.4,
+      "innovation_velocity": 9.2,
+      "competitive_intensity": 8.7
+    }
+  },
+  "webDisplayData": {
+    "title": "E-Commerce Platforms Foundation",
+    "businessDomain": "E-Commerce Platform Technologies and Marketplace Operations",
+    "foundationType": "platform_foundation",
+    "parentContext": "Digital Commerce & Creator Economy (ROOT_L0_001_DIGITAL_COMMERCE)",
+    "tags": ["ecommerce-platforms", "marketplace-technology", "retail-software", "merchant-services", "platform-development"],
+    "summary": "The E-Commerce Platforms Foundation encompasses the complete ecosystem of software platforms, retail services, and development tools that enable merchants and creators to build, operate, and scale online commerce businesses. This foundation covers marketplace platforms like Amazon and Etsy, direct commerce solutions like Shopify and WooCommerce, and social commerce integrations across all major platforms.",
+    "keyStats": {
+      "globalMarketSize": "$2,847.3 billion platform-enabled commerce",
+      "annualGrowthRate": "18.2% compound annual growth",
+      "platformCount": "156,000+ active e-commerce platforms",
+      "merchantAdoption": "89.4% of online merchants use platforms",
+      "childrenCount": "39 descendant records across 3 market segments"
+    }
+  },
+  "foundationIntelligence": {
+    "platformEcosystem": {
+      "marketSegmentation": {
+        "marketplacePlatforms": {
+          "marketShare": 45.2,
+          "growthRate": 16.8,
+          "keyPlayers": ["Amazon", "Etsy", "eBay", "Alibaba"],
+          "focus": "Multi-vendor marketplace operations"
+        },
+        "directCommerce": {
+          "marketShare": 38.7,
+          "growthRate": 21.4,
+          "keyPlayers": ["Shopify", "WooCommerce", "BigCommerce", "Magento"],
+          "focus": "Merchant-owned store platforms"
+        },
+        "socialCommerce": {
+          "marketShare": 16.1,
+          "growthRate": 34.6,
+          "keyPlayers": ["Instagram Shopping", "Facebook Shops", "TikTok Shop", "Pinterest"],
+          "focus": "Social media integrated commerce"
+        }
+      }
+    }
+  },
+  "businessRoleIntelligence": {
+    "creator": {
+      "opportunityScore": 9.4,
+      "implementationComplexity": 4.2,
+      "timeToValue": 2.8,
+      "investmentRequired": 8000,
+      "revenueUpside": 180000,
+      "strategicFit": 9.6,
+      "actionableIntelligence": [
+        "Platform selection based on product type and target audience",
+        "Multi-platform strategy for maximum reach and revenue",
+        "Creator-specific features and monetization optimization"
+      ]
+    },
+    "distributor": {
+      "opportunityScore": 9.7,
+      "implementationComplexity": 8.1,
+      "timeToValue": 15.2,
+      "investmentRequired": 5000000,
+      "revenueUpside": 85000000,
+      "strategicFit": 9.3,
+      "actionableIntelligence": [
+        "Platform ecosystem development and merchant acquisition",
+        "Technology stack optimization for scalability",
+        "Competitive positioning and differentiation strategies"
+      ]
+    },
+    "serviceProvider": {
+      "opportunityScore": 9.1,
+      "implementationComplexity": 5.8,
+      "timeToValue": 6.4,
+      "investmentRequired": 250000,
+      "revenueUpside": 4200000,
+      "strategicFit": 8.9,
+      "actionableIntelligence": [
+        "Platform specialization and expertise development",
+        "Service portfolio optimization across platform types",
+        "Client acquisition strategies for platform-based businesses"
+      ]
+    },
+    "investor": {
+      "opportunityScore": 9.8,
+      "implementationComplexity": 8.9,
+      "timeToValue": 28.0,
+      "investmentRequired": 45000000,
+      "revenueUpside": 650000000,
+      "strategicFit": 9.5,
+      "actionableIntelligence": [
+        "Platform investment thesis development and execution",
+        "Portfolio company platform strategy optimization",
+        "Market consolidation and acquisition opportunities"
+      ]
+    },
+    "acquirer": {
+      "opportunityScore": 9.2,
+      "implementationComplexity": 9.6,
+      "timeToValue": 24.5,
+      "investmentRequired": 250000000,
+      "revenueUpside": 1200000000,
+      "strategicFit": 8.8,
+      "actionableIntelligence": [
+        "Platform acquisition target identification and evaluation",
+        "Integration strategy development for platform consolidation",
+        "Synergy realization across platform ecosystems"
+      ]
+    },
+    "operator": {
+      "opportunityScore": 8.6,
+      "implementationComplexity": 7.2,
+      "timeToValue": 12.8,
+      "investmentRequired": 1200000,
+      "revenueUpside": 18000000,
+      "strategicFit": 8.1,
+      "actionableIntelligence": [
+        "Platform selection and migration strategies for enterprise",
+        "Operational efficiency optimization across platforms",
+        "Technology integration and workflow automation"
+      ]
+    },
+    "regulator": {
+      "opportunityScore": 7.4,
+      "implementationComplexity": 9.8,
+      "timeToValue": 48.0,
+      "investmentRequired": 25000000,
+      "revenueUpside": 0,
+      "strategicFit": 7.2,
+      "actionableIntelligence": [
+        "Platform regulation framework development",
+        "Market competition and antitrust oversight",
+        "Consumer protection and platform accountability"
+      ]
+    },
+    "academic": {
+      "opportunityScore": 8.7,
+      "implementationComplexity": 4.8,
+      "timeToValue": 18.0,
+      "investmentRequired": 680000,
+      "revenueUpside": 3400000,
+      "strategicFit": 8.9,
+      "actionableIntelligence": [
+        "Platform economics and business model research",
+        "Technology innovation and development collaboration",
+        "Educational program development for platform economy"
+      ]
+    }
+  },
+  "aiAgentCapabilities": {
+    "platformRecommendations": [
+      "Analyze business requirements and recommend optimal platform selection",
+      "Compare platform features, costs, and scalability for specific use cases",
+      "Identify platform migration strategies and implementation roadmaps"
+    ],
+    "marketAnalysis": [
+      "Track platform market share changes and competitive dynamics",
+      "Analyze platform feature evolution and innovation trends",
+      "Monitor platform pricing and business model changes"
+    ]
+  },
+  "webAppCompatibility": {
+    "directAccess": true,
+    "apiEndpoint": "GET /api/tree/digital-commerce/l1/ecommerce-platforms",
+    "responseFormat": "json",
+    "caching": {"browserCache": "4h", "cdnCache": "12h"},
+    "relatedRecords": {
+      "parentRecord": "/api/tree/digital-commerce/l0/root",
+      "childRecords": "/api/tree/digital-commerce/l1/ecommerce-platforms/children",
+      "siblingRecords": "/api/tree/digital-commerce/l1/siblings"
+    }
+  },
+  "vectorDbConfig": {
+    "embeddingTargets": [
+      {
+        "fieldName": "vectorizationContent.platformFoundation",
+        "maxTokens": 6000,
+        "chunkingStrategy": "platform_foundation_focused",
+        "optimizedFor": "platform_selection_search"
+      }
+    ]
+  },
+  "vectorizationContent": {
+    "platformFoundation": "E-commerce platforms foundation marketplace technology retail software merchant services platform development Shopify Amazon Etsy WooCommerce BigCommerce social commerce Instagram Facebook TikTok platform selection merchant acquisition technology stack competitive positioning business model optimization"
+  },
+  "metadata": {
+    "fileType": "universal_foundation_intelligence",
+    "version": "5.0.0",
+    "generationDate": "2025-06-16T20:30:00Z",
+    "granularityLevel": 1,
+    "hierarchyPosition": "L1_01 of 3 under ROOT_L0_001",
+    "llmOptimized": true,
+    "contextSize": "~8KB",
+    "treeStructureOptimized": true
+  }
+}
+
