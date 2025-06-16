@@ -11,10 +11,10 @@
   },
   "childrenReferences": {
     "l4Children": [
-      "PATENT_L4_001_MARKETPLACE_ALGORITHMS",
-      "PATENT_L4_002_VENDOR_ONBOARDING_SYSTEMS",
-      "PATENT_L4_003_MARKETPLACE_SEARCH_OPTIMIZATION"
-    ]
+      "PATENT_L4_001_OPERATIONS_PATENTS"
+    ],
+    "totalDescendants": 1,
+    "childrenLocation": "L3_001_Marketplace_Operations/"
   },
   "facetedIdentity": {
     "primary_class": "43230000",
