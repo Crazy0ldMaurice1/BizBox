@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "total_records": 16,
+    "split_date": "2025-06-16T18:20:00Z",
+    "purpose": "LLM-optimized L2 market intelligence access"
+  },
+  "records": [
+    {
+      "id": "MKT_L2_101_P2Q3R4S5",
+      "title": "Unknown",
+      "category": "Unknown",
+      "file": "MKT_L2_101_P2Q3R4S5.json"
+    },
+    {
+      "id": "MKT_L2_102_Q3R4S5T6",
+      "title": "Unknown",
+      "category": "Unknown",
+      "file": "MKT_L2_102_Q3R4S5T6.json"
+    },
+    {
+      "id": "MKT_L2_103_R5S6T7U8",
+      "title": "Unknown",
+      "category": "Unknown",
+      "file": "MKT_L2_103_R5S6T7U8.json"
+    },
+    {
+      "id": "MKT_L2_104_S6T7U8V9",
+      "title": "Unknown",
+      "category": "Unknown",
+      "file": "MKT_L2_104_S6T7U8V9.json"
+    },
+    {
+      "id": "MKT_L2_105_T7U8V9W0",
+      "title": "Unknown",
+      "category": "Unknown",
+      "file": "MKT_L2_105_T7U8V9W0.json"
+    },
+    {
+      "id": "MKT_L2_106_U8V9W0X1",
+      "title": "Unknown",
+      "category": "Unknown",
+      "file": "MKT_L2_106_U8V9W0X1.json"
+    },
+    {
+      "id": "MKT_L2_107_V9W0X1Y2",
+      "title": "Unknown",
+      "category": "Unknown",
+      "file": "MKT_L2_107_V9W0X1Y2.json"
+    },
+    {
+      "id": "MKT_L2_108_A1B2C3D4",
+      "title": "Unknown",
+      "category": "Unknown",
+      "file": "MKT_L2_108_A1B2C3D4.json"
+    },
+    {
+      "id": "MKT_L2_109_B2C3D4E5",
+      "title": "Unknown",
+      "category": "Unknown",
+      "file": "MKT_L2_109_B2C3D4E5.json"
+    },
+    {
+      "id": "L2_RECORD_010",
+      "title": "Unknown",
+      "category": "Live Streaming Creator Platforms",
+      "file": "L2_RECORD_010.json"
+    },
+    {
+      "id": "L2_RECORD_011",
+      "title": "Unknown",
+      "category": "Creator Content Management Platforms",
+      "file": "L2_RECORD_011.json"
+    },
+    {
+      "id": "L2_RECORD_012",
+      "title": "Unknown",
+      "category": "Creator Education & Learning Platforms",
+      "file": "L2_RECORD_012.json"
+    },
+    {
+      "id": "L2_RECORD_013",
+      "title": "Unknown",
+      "category": "Creator Collaboration & Networking Platforms",
+      "file": "L2_RECORD_013.json"
+    },
+    {
+      "id": "L2_RECORD_014",
+      "title": "Unknown",
+      "category": "Creator Analytics & Performance Tracking Platforms",
+      "file": "L2_RECORD_014.json"
+    },
+    {
+      "id": "L2_RECORD_015",
+      "title": "Unknown",
+      "category": "Creator Marketplace & Platform Integration Tools",
+      "file": "L2_RECORD_015.json"
+    },
+    {
+      "id": "L2_RECORD_016",
+      "title": "Unknown",
+      "category": "Creator Financial Services & Payment Platforms",
+      "file": "L2_RECORD_016.json"
+    }
+  ]
+}

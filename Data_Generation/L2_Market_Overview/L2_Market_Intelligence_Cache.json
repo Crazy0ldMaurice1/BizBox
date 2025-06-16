@@ -13,3 +13,87 @@
   "competitiveIntelligence": {}
 }
 
+
+{
+  "metadata": {
+    "fileType": "L2_Market_Intelligence_Cache",
+    "version": "1.0",
+    "lastUpdated": "2024-12-16T12:41:00Z",
+    "purpose": "Store validated market data for reuse across L2 record generation",
+    "totalCompanies": 5,
+    "totalMarketSegments": 1
+  },
+  "companies": {
+    "Twitch": {
+      "marketShare": 31.2,
+      "keyStrengths": ["Gaming focus", "Subscription model", "Community features", "Creator revenue sharing"],
+      "segment": "Live Streaming Creator Platforms",
+      "reliability": 0.91
+    },
+    "YouTube Live": {
+      "marketShare": 28.6,
+      "keyStrengths": ["Integrated ecosystem", "Monetization tools", "Global reach", "Multi-format support"],
+      "segment": "Live Streaming Creator Platforms",
+      "reliability": 0.92
+    },
+    "TikTok Live": {
+      "marketShare": 18.4,
+      "keyStrengths": ["Mobile-first", "Creator rewards program", "Social commerce", "Viral content"],
+      "segment": "Live Streaming Creator Platforms",
+      "reliability": 0.89
+    },
+    "Instagram Live": {
+      "marketShare": 12.7,
+      "keyStrengths": ["Social integration", "Brand partnerships", "Shopping features", "Stories integration"],
+      "segment": "Live Streaming Creator Platforms",
+      "reliability": 0.87
+    },
+    "Facebook Live": {
+      "marketShare": 9.1,
+      "keyStrengths": ["Social network integration", "Creator bonus programs", "Community building", "Cross-platform reach"],
+      "segment": "Live Streaming Creator Platforms",
+      "reliability": 0.88
+    }
+  },
+  "marketSegments": {
+    "Live Streaming Creator Platforms": {
+      "marketSize": 22.8,
+      "unit": "billion USD",
+      "year": 2024,
+      "cagr": 35.7,
+      "projectedSize2030": 89.4,
+      "competitiveIntensity": "Very High",
+      "barrierToEntry": "High",
+      "reliability": 0.89
+    }
+  },
+  "investmentData": {
+    "Live Streaming Creator Platforms": {
+      "totalFunding": 4.7,
+      "unit": "billion USD",
+      "year": 2024,
+      "majorRounds": [
+        {
+          "company": "StreamLabs",
+          "amount": 180,
+          "round": "Series C",
+          "valuation": 1.2
+        },
+        {
+          "company": "Restream",
+          "amount": 95,
+          "round": "Series B",
+          "valuation": 650
+        }
+      ]
+    }
+  },
+  "competitiveIntelligence": {
+    "Live Streaming Creator Platforms": {
+      "keyFactors": ["Creator revenue sharing", "Monetization tools", "Audience engagement", "Platform features", "Community building"],
+      "consolidationTrend": "Platform expansion and creator acquisition",
+      "technologyTrends": ["AI-powered streaming tools", "Live commerce integration", "VR/AR capabilities", "Creator monetization optimization"]
+    }
+  }
+}
+

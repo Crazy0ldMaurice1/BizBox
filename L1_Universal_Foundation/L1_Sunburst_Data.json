@@ -1,0 +1,534 @@
+{
+  "metadata": {
+    "fileType": "sunburst_visualization_data",
+    "fileName": "L1_Sunburst_Data.json",
+    "version": "1.0.0",
+    "generationDate": "2025-06-16T15:15:00Z",
+    "purpose": "Hierarchical data structure for D3.js zoomable sunburst visualization",
+    "compatibleWith": "https://observablehq.com/@d3/zoomable-sunburst",
+    "dataStructure": "Nested hierarchy optimized for sunburst visualization performance",
+    "totalNodes": 158,
+    "maxDepth": 4
+  },
+  "name": "BizBox Intelligence Hierarchy",
+  "children": [
+    {
+      "name": "Information & Communication Services",
+      "id": "L0_01",
+      "value": 4200,
+      "marketSize": 4200,
+      "recordCount": 20,
+      "children": [
+        {
+          "name": "AI Software Foundation",
+          "id": "FOUND_L1_001",
+          "value": 1847,
+          "marketSize": 1847,
+          "growthRate": 37.3,
+          "completionStatus": "completed",
+          "children": [
+            {
+              "name": "Machine Learning Platforms",
+              "id": "L2_001_001",
+              "value": 19.8,
+              "marketSize": 19.8,
+              "recordType": "L2_market_intelligence"
+            },
+            {
+              "name": "Natural Language Processing",
+              "id": "L2_001_002", 
+              "value": 24.3,
+              "marketSize": 24.3,
+              "recordType": "L2_market_intelligence"
+            },
+            {
+              "name": "Computer Vision Platforms",
+              "id": "L2_001_003",
+              "value": 20.5,
+              "marketSize": 20.5,
+              "recordType": "L2_market_intelligence"
+            },
+            {
+              "name": "AI Development Tools",
+              "id": "L2_001_004",
+              "value": 15.2,
+              "marketSize": 15.2,
+              "recordType": "L2_market_intelligence"
+            },
+            {
+              "name": "Generative AI Platforms",
+              "id": "L2_001_005",
+              "value": 43.7,
+              "marketSize": 43.7,
+              "recordType": "L2_market_intelligence"
+            }
+          ]
+        },
+        {
+          "name": "Cybersecurity Software Foundation",
+          "id": "FOUND_L1_002",
+          "value": 345,
+          "marketSize": 345,
+          "growthRate": 12.8,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Cloud Computing Foundation",
+          "id": "FOUND_L1_003",
+          "value": 678,
+          "marketSize": 678,
+          "growthRate": 15.2,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Enterprise Software Foundation",
+          "id": "FOUND_L1_004",
+          "value": 456,
+          "marketSize": 456,
+          "growthRate": 8.5,
+          "completionStatus": "completed"
+        }
+      ]
+    },
+    {
+      "name": "Healthcare & Life Sciences",
+      "id": "L0_02",
+      "value": 8900,
+      "marketSize": 8900,
+      "recordCount": 10,
+      "children": [
+        {
+          "name": "Digital Health Foundation",
+          "id": "FOUND_L1_020",
+          "value": 2100,
+          "marketSize": 2100,
+          "growthRate": 12.4,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Medical Devices Foundation",
+          "id": "FOUND_L1_021",
+          "value": 1800,
+          "marketSize": 1800,
+          "growthRate": 6.8,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Biotechnology Foundation",
+          "id": "FOUND_L1_022",
+          "value": 1500,
+          "marketSize": 1500,
+          "growthRate": 9.2,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Pharmaceutical Foundation",
+          "id": "FOUND_L1_023",
+          "value": 3500,
+          "marketSize": 3500,
+          "growthRate": 4.5,
+          "completionStatus": "completed"
+        }
+      ]
+    },
+    {
+      "name": "Financial Services",
+      "id": "L0_03",
+      "value": 6500,
+      "marketSize": 6500,
+      "recordCount": 10,
+      "children": [
+        {
+          "name": "Banking Technology Foundation",
+          "id": "FOUND_L1_030",
+          "value": 1200,
+          "marketSize": 1200,
+          "growthRate": 8.2,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Payment Processing Foundation",
+          "id": "FOUND_L1_031",
+          "value": 890,
+          "marketSize": 890,
+          "growthRate": 15.6,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Investment Management Foundation",
+          "id": "FOUND_L1_032",
+          "value": 2400,
+          "marketSize": 2400,
+          "growthRate": 5.8,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Insurance Technology Foundation",
+          "id": "FOUND_L1_033",
+          "value": 2010,
+          "marketSize": 2010,
+          "growthRate": 7.3,
+          "completionStatus": "completed"
+        }
+      ]
+    },
+    {
+      "name": "Manufacturing & Production",
+      "id": "L0_04",
+      "value": 12000,
+      "marketSize": 12000,
+      "recordCount": 10,
+      "children": [
+        {
+          "name": "Industrial Automation Foundation",
+          "id": "FOUND_L1_040",
+          "value": 3200,
+          "marketSize": 3200,
+          "growthRate": 6.5,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Automotive Manufacturing Foundation",
+          "id": "FOUND_L1_041",
+          "value": 2800,
+          "marketSize": 2800,
+          "growthRate": 3.2,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Aerospace Manufacturing Foundation",
+          "id": "FOUND_L1_042",
+          "value": 1900,
+          "marketSize": 1900,
+          "growthRate": 4.8,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Chemical Manufacturing Foundation",
+          "id": "FOUND_L1_043",
+          "value": 4100,
+          "marketSize": 4100,
+          "growthRate": 2.9,
+          "completionStatus": "completed"
+        }
+      ]
+    },
+    {
+      "name": "Energy & Utilities",
+      "id": "L0_05",
+      "value": 7840,
+      "marketSize": 7840,
+      "recordCount": 8,
+      "children": [
+        {
+          "name": "Renewable Energy Foundation",
+          "id": "FOUND_L1_050",
+          "value": 2100,
+          "marketSize": 2100,
+          "growthRate": 12.8,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Smart Grid Foundation",
+          "id": "FOUND_L1_051",
+          "value": 890,
+          "marketSize": 890,
+          "growthRate": 8.5,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Oil & Gas Technology Foundation",
+          "id": "FOUND_L1_052",
+          "value": 3200,
+          "marketSize": 3200,
+          "growthRate": 2.1,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Energy Storage Foundation",
+          "id": "FOUND_L1_053",
+          "value": 1650,
+          "marketSize": 1650,
+          "growthRate": 18.5,
+          "completionStatus": "completed"
+        }
+      ]
+    },
+    {
+      "name": "Transportation & Logistics",
+      "id": "L0_06",
+      "value": 6240,
+      "marketSize": 6240,
+      "recordCount": 8,
+      "children": [
+        {
+          "name": "Transportation & Logistics Foundation",
+          "id": "FOUND_L1_051",
+          "value": 6230,
+          "marketSize": 6230,
+          "growthRate": 4.81,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Aviation & Aerospace Foundation",
+          "id": "PLACEHOLDER_L1_059",
+          "value": 890,
+          "marketSize": 890,
+          "growthRate": 5.2,
+          "completionStatus": "placeholder"
+        },
+        {
+          "name": "Maritime & Shipping Foundation",
+          "id": "PLACEHOLDER_L1_060",
+          "value": 450,
+          "marketSize": 450,
+          "growthRate": 3.8,
+          "completionStatus": "placeholder"
+        }
+      ]
+    },
+    {
+      "name": "Retail & Consumer Services",
+      "id": "L0_07",
+      "value": 12160,
+      "marketSize": 12160,
+      "recordCount": 8,
+      "children": [
+        {
+          "name": "Retail & Consumer Services Foundation",
+          "id": "FOUND_L1_052",
+          "value": 12200,
+          "marketSize": 12200,
+          "growthRate": 1.8,
+          "completionStatus": "completed",
+          "children": [
+            {
+              "name": "Print-on-Demand Platforms",
+              "id": "L2_002_001",
+              "value": 8.4,
+              "marketSize": 8.4,
+              "recordType": "L2_market_intelligence"
+            },
+            {
+              "name": "Creator Monetization Tools",
+              "id": "L2_002_002",
+              "value": 12.7,
+              "marketSize": 12.7,
+              "recordType": "L2_market_intelligence"
+            },
+            {
+              "name": "Social Commerce Platforms",
+              "id": "L2_002_003",
+              "value": 15.3,
+              "marketSize": 15.3,
+              "recordType": "L2_market_intelligence"
+            }
+          ]
+        },
+        {
+          "name": "Hospitality & Tourism Foundation",
+          "id": "PLACEHOLDER_L1_061",
+          "value": 1200,
+          "marketSize": 1200,
+          "growthRate": 6.5,
+          "completionStatus": "placeholder"
+        },
+        {
+          "name": "Food Service & Restaurant Foundation",
+          "id": "PLACEHOLDER_L1_062",
+          "value": 780,
+          "marketSize": 780,
+          "growthRate": 4.2,
+          "completionStatus": "placeholder"
+        }
+      ]
+    },
+    {
+      "name": "Education & Professional Services",
+      "id": "L0_08",
+      "value": 6400,
+      "marketSize": 6400,
+      "recordCount": 8,
+      "children": [
+        {
+          "name": "Education & Professional Services Foundation",
+          "id": "FOUND_L1_053",
+          "value": 6400,
+          "marketSize": 6400,
+          "growthRate": 4.8,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Educational Technology Foundation",
+          "id": "PLACEHOLDER_L1_063",
+          "value": 890,
+          "marketSize": 890,
+          "growthRate": 12.5,
+          "completionStatus": "placeholder"
+        },
+        {
+          "name": "Professional Training Foundation",
+          "id": "PLACEHOLDER_L1_064",
+          "value": 650,
+          "marketSize": 650,
+          "growthRate": 8.2,
+          "completionStatus": "placeholder"
+        }
+      ]
+    },
+    {
+      "name": "Construction & Real Estate",
+      "id": "L0_09",
+      "value": 4520,
+      "marketSize": 4520,
+      "recordCount": 8,
+      "children": [
+        {
+          "name": "Construction & Real Estate Foundation",
+          "id": "FOUND_L1_054",
+          "value": 2260,
+          "marketSize": 2260,
+          "growthRate": 4.0,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Smart Building Technology Foundation",
+          "id": "PLACEHOLDER_L1_065",
+          "value": 780,
+          "marketSize": 780,
+          "growthRate": 15.2,
+          "completionStatus": "placeholder"
+        },
+        {
+          "name": "Infrastructure Development Foundation",
+          "id": "PLACEHOLDER_L1_066",
+          "value": 1480,
+          "marketSize": 1480,
+          "growthRate": 3.5,
+          "completionStatus": "placeholder"
+        }
+      ]
+    },
+    {
+      "name": "Agriculture & Natural Resources",
+      "id": "L0_10",
+      "value": 15520,
+      "marketSize": 15520,
+      "recordCount": 8,
+      "children": [
+        {
+          "name": "Agriculture & Natural Resources Foundation",
+          "id": "FOUND_L1_055",
+          "value": 15500,
+          "marketSize": 15500,
+          "growthRate": 7.9,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Agricultural Technology Foundation",
+          "id": "PLACEHOLDER_L1_067",
+          "value": 1200,
+          "marketSize": 1200,
+          "growthRate": 18.5,
+          "completionStatus": "placeholder"
+        },
+        {
+          "name": "Sustainable Farming Foundation",
+          "id": "PLACEHOLDER_L1_068",
+          "value": 890,
+          "marketSize": 890,
+          "growthRate": 22.3,
+          "completionStatus": "placeholder"
+        }
+      ]
+    },
+    {
+      "name": "Government & Public Services",
+      "id": "L0_11",
+      "value": 35000,
+      "marketSize": 35000,
+      "recordCount": 5,
+      "children": [
+        {
+          "name": "Government & Public Services Foundation",
+          "id": "FOUND_L1_056",
+          "value": 35000,
+          "marketSize": 35000,
+          "growthRate": 3.2,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Defense Technology Foundation",
+          "id": "PLACEHOLDER_L1_069",
+          "value": 2100,
+          "marketSize": 2100,
+          "growthRate": 4.8,
+          "completionStatus": "placeholder"
+        },
+        {
+          "name": "Public Safety Technology Foundation",
+          "id": "PLACEHOLDER_L1_070",
+          "value": 890,
+          "marketSize": 890,
+          "growthRate": 8.5,
+          "completionStatus": "placeholder"
+        }
+      ]
+    },
+    {
+      "name": "Entertainment & Creative Industries",
+      "id": "L0_12",
+      "value": 2900,
+      "marketSize": 2900,
+      "recordCount": 5,
+      "children": [
+        {
+          "name": "Entertainment & Creative Industries Foundation",
+          "id": "FOUND_L1_057",
+          "value": 2900,
+          "marketSize": 2900,
+          "growthRate": 4.29,
+          "completionStatus": "completed"
+        },
+        {
+          "name": "Gaming & Interactive Media Foundation",
+          "id": "PLACEHOLDER_L1_071",
+          "value": 650,
+          "marketSize": 650,
+          "growthRate": 12.8,
+          "completionStatus": "placeholder"
+        },
+        {
+          "name": "Digital Content Creation Foundation",
+          "id": "PLACEHOLDER_L1_072",
+          "value": 450,
+          "marketSize": 450,
+          "growthRate": 18.5,
+          "completionStatus": "placeholder"
+        }
+      ]
+    }
+  ],
+  "visualizationConfig": {
+    "colorScheme": {
+      "L0_categories": "#1f77b4",
+      "L1_foundations_completed": "#2ca02c", 
+      "L1_foundations_placeholder": "#ff7f0e",
+      "L2_market_intelligence": "#d62728",
+      "L3_implementation": "#9467bd",
+      "L4_business_granularity": "#8c564b"
+    },
+    "sizeEncoding": "marketSize",
+    "tooltipFields": ["name", "marketSize", "growthRate", "completionStatus"],
+    "zoomLevels": 4,
+    "animationDuration": 750
+  },
+  "usageInstructions": {
+    "d3Implementation": "Use with D3.js hierarchy() and partition() layouts",
+    "dataBinding": "Bind to 'value' field for size encoding",
+    "interactivity": "Enable click-to-zoom on any node with children",
+    "filtering": "Filter by completionStatus to show only completed foundations",
+    "colorCoding": "Use recordType and completionStatus for color differentiation"
+  }
+}
+

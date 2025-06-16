@@ -1,0 +1,430 @@
+{
+  "metadata": {
+    "fileType": "l1_foundation_summary_index",
+    "fileName": "L1_Foundation_Summary_Index.json",
+    "version": "1.0.0",
+    "generationDate": "2025-06-16T15:00:00Z",
+    "totalFoundations": 100,
+    "completedFoundations": 58,
+    "placeholderFoundations": 42,
+    "l0CategoryCoverage": 12,
+    "purpose": "Lightweight metadata index for efficient L1 foundation discovery and navigation",
+    "webAppCompatibility": {
+      "directAccess": true,
+      "apiEndpoint": "GET /api/l1/foundation-index",
+      "responseFormat": "json",
+      "caching": { "browserCache": "120min", "cdnCache": "24h" },
+      "filterableFields": ["l0CategoryId", "naicsPrimary", "marketSize", "roleRelevance", "completionStatus"],
+      "searchOptimization": "Enables efficient foundation discovery without full record consumption"
+    }
+  },
+  "foundationSummaries": [
+    {
+      "foundationId": "FOUND_L1_001_A7F8B2C9",
+      "foundationName": "AI Software Foundation",
+      "l0CategoryId": "L0_01",
+      "l0CategoryName": "Information & Communication Services",
+      "completionStatus": "completed",
+      "marketSize": 1847,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 37.3,
+      "technologyReadiness": 8,
+      "naicsPrimary": "541511",
+      "unspscPrimary": "43232000",
+      "cpcPrimary": "G06N",
+      "roleRelevance": {
+        "creator": 9,
+        "distributor": 8,
+        "serviceProvider": 9,
+        "investor": 9,
+        "acquirer": 8,
+        "operator": 7,
+        "regulator": 6,
+        "academic": 8
+      },
+      "keyCapabilities": ["Machine Learning", "Natural Language Processing", "Computer Vision", "AI Development Tools"],
+      "l2InheritancePotential": 78,
+      "l3InheritancePotential": 82,
+      "l4InheritancePotential": 85
+    },
+    {
+      "foundationId": "FOUND_L1_002_B8G9C3D1",
+      "foundationName": "Cybersecurity Software Foundation",
+      "l0CategoryId": "L0_01",
+      "l0CategoryName": "Information & Communication Services",
+      "completionStatus": "completed",
+      "marketSize": 345,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 12.8,
+      "technologyReadiness": 9,
+      "naicsPrimary": "541512",
+      "unspscPrimary": "43233000",
+      "cpcPrimary": "H04L",
+      "roleRelevance": {
+        "creator": 7,
+        "distributor": 8,
+        "serviceProvider": 9,
+        "investor": 8,
+        "acquirer": 8,
+        "operator": 9,
+        "regulator": 9,
+        "academic": 7
+      },
+      "keyCapabilities": ["Threat Detection", "Identity Management", "Network Security", "Compliance Automation"],
+      "l2InheritancePotential": 75,
+      "l3InheritancePotential": 80,
+      "l4InheritancePotential": 83
+    },
+    {
+      "foundationId": "FOUND_L1_051_T6U7V8W9",
+      "foundationName": "Transportation & Logistics Foundation",
+      "l0CategoryId": "L0_06",
+      "l0CategoryName": "Transportation & Logistics",
+      "completionStatus": "completed",
+      "marketSize": 6230,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 4.81,
+      "technologyReadiness": 7,
+      "naicsPrimary": "48-49",
+      "unspscPrimary": "78100000",
+      "cpcPrimary": "B60P",
+      "roleRelevance": {
+        "creator": 6,
+        "distributor": 9,
+        "serviceProvider": 8,
+        "investor": 7,
+        "acquirer": 8,
+        "operator": 9,
+        "regulator": 8,
+        "academic": 6
+      },
+      "keyCapabilities": ["Supply Chain Management", "Fleet Operations", "Logistics Optimization", "Transportation Networks"],
+      "l2InheritancePotential": 72,
+      "l3InheritancePotential": 78,
+      "l4InheritancePotential": 81
+    },
+    {
+      "foundationId": "FOUND_L1_052_R7S8T9U1",
+      "foundationName": "Retail & Consumer Services Foundation",
+      "l0CategoryId": "L0_07",
+      "l0CategoryName": "Retail & Consumer Services",
+      "completionStatus": "completed",
+      "marketSize": 12200,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 1.8,
+      "technologyReadiness": 6,
+      "naicsPrimary": "44-45",
+      "unspscPrimary": "90111500",
+      "cpcPrimary": "A47F",
+      "roleRelevance": {
+        "creator": 8,
+        "distributor": 9,
+        "serviceProvider": 7,
+        "investor": 7,
+        "acquirer": 8,
+        "operator": 8,
+        "regulator": 6,
+        "academic": 5
+      },
+      "keyCapabilities": ["E-commerce Platforms", "Customer Experience", "Retail Operations", "Consumer Analytics"],
+      "l2InheritancePotential": 68,
+      "l3InheritancePotential": 75,
+      "l4InheritancePotential": 78
+    },
+    {
+      "foundationId": "FOUND_L1_053_P5Q6R7S8",
+      "foundationName": "Education & Professional Services Foundation",
+      "l0CategoryId": "L0_08",
+      "l0CategoryName": "Education & Professional Services",
+      "completionStatus": "completed",
+      "marketSize": 6400,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 4.8,
+      "technologyReadiness": 5,
+      "naicsPrimary": "54",
+      "unspscPrimary": "80101500",
+      "cpcPrimary": "G06Q",
+      "roleRelevance": {
+        "creator": 7,
+        "distributor": 6,
+        "serviceProvider": 9,
+        "investor": 6,
+        "acquirer": 7,
+        "operator": 7,
+        "regulator": 7,
+        "academic": 9
+      },
+      "keyCapabilities": ["Professional Consulting", "Educational Technology", "Training Services", "Knowledge Management"],
+      "l2InheritancePotential": 70,
+      "l3InheritancePotential": 76,
+      "l4InheritancePotential": 79
+    },
+    {
+      "foundationId": "FOUND_L1_054_N3O4P5Q6",
+      "foundationName": "Construction & Real Estate Foundation",
+      "l0CategoryId": "L0_09",
+      "l0CategoryName": "Construction & Real Estate",
+      "completionStatus": "completed",
+      "marketSize": 2260,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 4.0,
+      "technologyReadiness": 4,
+      "naicsPrimary": "23",
+      "unspscPrimary": "72121100",
+      "cpcPrimary": "E04B",
+      "roleRelevance": {
+        "creator": 6,
+        "distributor": 7,
+        "serviceProvider": 8,
+        "investor": 8,
+        "acquirer": 7,
+        "operator": 8,
+        "regulator": 8,
+        "academic": 5
+      },
+      "keyCapabilities": ["Construction Management", "Real Estate Development", "Building Technologies", "Infrastructure Planning"],
+      "l2InheritancePotential": 65,
+      "l3InheritancePotential": 72,
+      "l4InheritancePotential": 75
+    },
+    {
+      "foundationId": "FOUND_L1_055_L1M2N3O4",
+      "foundationName": "Agriculture & Natural Resources Foundation",
+      "l0CategoryId": "L0_10",
+      "l0CategoryName": "Agriculture & Natural Resources",
+      "completionStatus": "completed",
+      "marketSize": 15500,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 7.9,
+      "technologyReadiness": 5,
+      "naicsPrimary": "11",
+      "unspscPrimary": "10000000",
+      "cpcPrimary": "A01",
+      "roleRelevance": {
+        "creator": 7,
+        "distributor": 8,
+        "serviceProvider": 7,
+        "investor": 8,
+        "acquirer": 7,
+        "operator": 8,
+        "regulator": 9,
+        "academic": 8
+      },
+      "keyCapabilities": ["Agricultural Technology", "Resource Management", "Food Production", "Environmental Sustainability"],
+      "l2InheritancePotential": 67,
+      "l3InheritancePotential": 74,
+      "l4InheritancePotential": 77
+    },
+    {
+      "foundationId": "FOUND_L1_056_J9K1L2M3",
+      "foundationName": "Government & Public Services Foundation",
+      "l0CategoryId": "L0_11",
+      "l0CategoryName": "Government & Public Services",
+      "completionStatus": "completed",
+      "marketSize": 35000,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 3.2,
+      "technologyReadiness": 4,
+      "naicsPrimary": "92",
+      "unspscPrimary": "80100000",
+      "cpcPrimary": "G06Q",
+      "roleRelevance": {
+        "creator": 5,
+        "distributor": 6,
+        "serviceProvider": 8,
+        "investor": 5,
+        "acquirer": 6,
+        "operator": 9,
+        "regulator": 9,
+        "academic": 7
+      },
+      "keyCapabilities": ["Public Administration", "Regulatory Compliance", "Government Technology", "Public Safety"],
+      "l2InheritancePotential": 62,
+      "l3InheritancePotential": 70,
+      "l4InheritancePotential": 73
+    },
+    {
+      "foundationId": "FOUND_L1_057_H7I8J9K1",
+      "foundationName": "Entertainment & Creative Industries Foundation",
+      "l0CategoryId": "L0_12",
+      "l0CategoryName": "Entertainment & Creative Industries",
+      "completionStatus": "completed",
+      "marketSize": 2900,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 4.29,
+      "technologyReadiness": 6,
+      "naicsPrimary": "71",
+      "unspscPrimary": "90100000",
+      "cpcPrimary": "G06Q",
+      "roleRelevance": {
+        "creator": 9,
+        "distributor": 8,
+        "serviceProvider": 7,
+        "investor": 7,
+        "acquirer": 7,
+        "operator": 6,
+        "regulator": 5,
+        "academic": 6
+      },
+      "keyCapabilities": ["Content Creation", "Media Distribution", "Creative Technologies", "Entertainment Platforms"],
+      "l2InheritancePotential": 71,
+      "l3InheritancePotential": 77,
+      "l4InheritancePotential": 80
+    }
+  ],
+  "placeholderFoundations": [
+    {
+      "foundationId": "PLACEHOLDER_L1_059",
+      "foundationName": "Aviation & Aerospace Foundation",
+      "l0CategoryId": "L0_06",
+      "l0CategoryName": "Transportation & Logistics",
+      "completionStatus": "placeholder",
+      "estimatedMarketSize": 890,
+      "estimatedGrowthRate": 5.2,
+      "priorityLevel": "high"
+    },
+    {
+      "foundationId": "PLACEHOLDER_L1_060",
+      "foundationName": "Maritime & Shipping Foundation",
+      "l0CategoryId": "L0_06",
+      "l0CategoryName": "Transportation & Logistics",
+      "completionStatus": "placeholder",
+      "estimatedMarketSize": 450,
+      "estimatedGrowthRate": 3.8,
+      "priorityLevel": "medium"
+    },
+    {
+      "foundationId": "PLACEHOLDER_L1_061",
+      "foundationName": "Hospitality & Tourism Foundation",
+      "l0CategoryId": "L0_07",
+      "l0CategoryName": "Retail & Consumer Services",
+      "completionStatus": "placeholder",
+      "estimatedMarketSize": 1200,
+      "estimatedGrowthRate": 6.5,
+      "priorityLevel": "high"
+    },
+    {
+      "foundationId": "PLACEHOLDER_L1_062",
+      "foundationName": "Food Service & Restaurant Foundation",
+      "l0CategoryId": "L0_07",
+      "l0CategoryName": "Retail & Consumer Services",
+      "completionStatus": "placeholder",
+      "estimatedMarketSize": 780,
+      "estimatedGrowthRate": 4.2,
+      "priorityLevel": "medium"
+    }
+  ],
+  "categoryDistribution": {
+    "L0_01": {
+      "categoryName": "Information & Communication Services",
+      "completedFoundations": 16,
+      "placeholderFoundations": 4,
+      "totalFoundations": 20,
+      "averageMarketSize": 425,
+      "averageGrowthRate": 18.5
+    },
+    "L0_02": {
+      "categoryName": "Healthcare & Life Sciences",
+      "completedFoundations": 10,
+      "placeholderFoundations": 0,
+      "totalFoundations": 10,
+      "averageMarketSize": 890,
+      "averageGrowthRate": 8.2
+    },
+    "L0_03": {
+      "categoryName": "Financial Services",
+      "completedFoundations": 10,
+      "placeholderFoundations": 0,
+      "totalFoundations": 10,
+      "averageMarketSize": 650,
+      "averageGrowthRate": 6.8
+    },
+    "L0_04": {
+      "categoryName": "Manufacturing & Production",
+      "completedFoundations": 9,
+      "placeholderFoundations": 1,
+      "totalFoundations": 10,
+      "averageMarketSize": 1200,
+      "averageGrowthRate": 4.5
+    },
+    "L0_05": {
+      "categoryName": "Energy & Utilities",
+      "completedFoundations": 5,
+      "placeholderFoundations": 3,
+      "totalFoundations": 8,
+      "averageMarketSize": 980,
+      "averageGrowthRate": 7.2
+    },
+    "L0_06": {
+      "categoryName": "Transportation & Logistics",
+      "completedFoundations": 1,
+      "placeholderFoundations": 7,
+      "totalFoundations": 8,
+      "averageMarketSize": 780,
+      "averageGrowthRate": 4.8
+    },
+    "L0_07": {
+      "categoryName": "Retail & Consumer Services",
+      "completedFoundations": 1,
+      "placeholderFoundations": 7,
+      "totalFoundations": 8,
+      "averageMarketSize": 1520,
+      "averageGrowthRate": 3.2
+    },
+    "L0_08": {
+      "categoryName": "Education & Professional Services",
+      "completedFoundations": 1,
+      "placeholderFoundations": 7,
+      "totalFoundations": 8,
+      "averageMarketSize": 800,
+      "averageGrowthRate": 4.8
+    },
+    "L0_09": {
+      "categoryName": "Construction & Real Estate",
+      "completedFoundations": 1,
+      "placeholderFoundations": 7,
+      "totalFoundations": 8,
+      "averageMarketSize": 565,
+      "averageGrowthRate": 4.0
+    },
+    "L0_10": {
+      "categoryName": "Agriculture & Natural Resources",
+      "completedFoundations": 1,
+      "placeholderFoundations": 7,
+      "totalFoundations": 8,
+      "averageMarketSize": 1940,
+      "averageGrowthRate": 7.9
+    },
+    "L0_11": {
+      "categoryName": "Government & Public Services",
+      "completedFoundations": 1,
+      "placeholderFoundations": 4,
+      "totalFoundations": 5,
+      "averageMarketSize": 7000,
+      "averageGrowthRate": 3.2
+    },
+    "L0_12": {
+      "categoryName": "Entertainment & Creative Industries",
+      "completedFoundations": 1,
+      "placeholderFoundations": 4,
+      "totalFoundations": 5,
+      "averageMarketSize": 580,
+      "averageGrowthRate": 4.3
+    }
+  },
+  "apiEndpoints": {
+    "foundationSummary": "GET /api/l1/foundation/{foundationId}/summary",
+    "categoryFoundations": "GET /api/l1/category/{l0CategoryId}/foundations",
+    "searchFoundations": "GET /api/l1/search?query={searchTerm}",
+    "filterFoundations": "GET /api/l1/filter?marketSize={min}-{max}&growthRate={min}-{max}",
+    "roleRelevance": "GET /api/l1/role/{roleName}/foundations",
+    "completionStatus": "GET /api/l1/status/{completionStatus}"
+  },
+  "usageGuidelines": {
+    "efficientAccess": "Use foundation summaries for browsing and selection, detailed records for analysis",
+    "caching": "Foundation summaries cached for 2 hours, detailed records cached for 24 hours",
+    "filtering": "Combine multiple filter criteria for precise foundation discovery",
+    "roleBasedAccess": "Filter by role relevance scores for personalized foundation recommendations"
+  }
+}
+

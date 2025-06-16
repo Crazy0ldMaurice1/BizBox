@@ -1,0 +1,977 @@
+{
+  "metadata": {
+    "fileType": "l0_category_index",
+    "fileName": "L0_Market_Categories_and_L1_Index.json",
+    "version": "1.0.0",
+    "generationDate": "2025-06-16T13:00:00Z",
+    "totalL0Categories": 12,
+    "totalL1Records": 100,
+    "totalL1Placeholders": 200,
+    "totalL1Complete": 300,
+    "lastUpdated": "2025-06-16T13:00:00Z",
+    "purpose": "Level 0 categorization system for efficient L1 indexing and web application queries",
+    "webAppCompatibility": {
+      "directAccess": true,
+      "apiEndpoint": "GET /api/l0/categories",
+      "responseFormat": "json",
+      "caching": { "browserCache": "240min", "cdnCache": "48h" },
+      "filterableFields": ["l0CategoryId", "categoryName", "estimatedMarketSize", "l1RecordCount"],
+      "queryOptimization": "Enables efficient category-based filtering and L1 record discovery"
+    }
+  },
+  "l0Categories": [
+    {
+      "l0CategoryId": "L0_01",
+      "categoryName": "Information & Communication Services",
+      "description": "Software development, telecommunications, media production, data services, and digital platforms",
+      "unspscAlignment": "43000000 - Information Technology Broadcasting and Telecommunications",
+      "naicsAlignment": "51 - Information, 54 - Professional Services",
+      "estimatedMarketSize": 4200,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 12.5,
+      "l1RecordCount": 20,
+      "l1PlaceholderCount": 35,
+      "strategicImportance": "Critical - Digital transformation foundation across all industries",
+      "existingL1Records": [
+        {
+          "recordId": "FOUND_L1_001_A7F8B2C9",
+          "foundationName": "AI Software Foundation",
+          "marketSize": 1847,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_002_B8G9C3D1", 
+          "foundationName": "Cybersecurity Software Foundation",
+          "marketSize": 345,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_003_C9H1D4E2",
+          "foundationName": "Cloud Computing Foundation", 
+          "marketSize": 678,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_004_D1I2E5F3",
+          "foundationName": "Enterprise Software Foundation",
+          "marketSize": 456,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_005_E2J3F6G4",
+          "foundationName": "Data Analytics Foundation",
+          "marketSize": 234,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_006_F3K4G7H5",
+          "foundationName": "Internet of Things Foundation",
+          "marketSize": 189,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_007_G4L5H8I6",
+          "foundationName": "Blockchain Foundation",
+          "marketSize": 123,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_008_H5M6I9J7",
+          "foundationName": "Mobile Application Foundation",
+          "marketSize": 167,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_009_I6N7J1K8",
+          "foundationName": "Web Development Foundation",
+          "marketSize": 145,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_010_J7O8K2L9",
+          "foundationName": "DevOps Foundation",
+          "marketSize": 89,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_011_K8P9L3M1",
+          "foundationName": "Database Systems Foundation",
+          "marketSize": 112,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_012_L9Q1M4N2",
+          "foundationName": "Network Infrastructure Foundation",
+          "marketSize": 234,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_013_M1R2N5O3",
+          "foundationName": "Software Testing Foundation",
+          "marketSize": 67,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_014_N2S3O6P4",
+          "foundationName": "API Development Foundation",
+          "marketSize": 45,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_015_O3T4P7Q5",
+          "foundationName": "Automation Platforms Foundation",
+          "marketSize": 156,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_050_X2C3Z6A4",
+          "foundationName": "Quantum Computing Foundation",
+          "marketSize": 1.42,
+          "status": "completed"
+        }
+      ],
+      "l1PlaceholderRecords": [
+        {
+          "placeholderId": "PLHD_L1_102", 
+          "foundationName": "Edge Computing Foundation",
+          "estimatedMarketSize": 89,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_103",
+          "foundationName": "5G Technology Foundation",
+          "estimatedMarketSize": 234,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_104",
+          "foundationName": "Virtual Reality Foundation",
+          "estimatedMarketSize": 67,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_105",
+          "foundationName": "Augmented Reality Foundation", 
+          "estimatedMarketSize": 78,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_106",
+          "foundationName": "Digital Twin Technology Foundation",
+          "estimatedMarketSize": 45,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_107",
+          "foundationName": "Low-Code Development Foundation",
+          "estimatedMarketSize": 34,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_108",
+          "foundationName": "Serverless Computing Foundation",
+          "estimatedMarketSize": 23,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_109",
+          "foundationName": "Microservices Architecture Foundation",
+          "estimatedMarketSize": 56,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_110",
+          "foundationName": "Container Technology Foundation",
+          "estimatedMarketSize": 67,
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "l0CategoryId": "L0_02",
+      "categoryName": "Healthcare & Life Sciences",
+      "description": "Medical services, pharmaceuticals, biotechnology, medical devices, and health information systems",
+      "unspscAlignment": "42000000 - Medical Equipment and Accessories and Supplies",
+      "naicsAlignment": "62 - Health Care, 54 - Professional Services",
+      "estimatedMarketSize": 2800,
+      "marketSizeUnit": "billion USD", 
+      "growthRate": 8.7,
+      "l1RecordCount": 10,
+      "l1PlaceholderCount": 25,
+      "strategicImportance": "Critical - Aging population and digital health transformation",
+      "existingL1Records": [
+        {
+          "recordId": "FOUND_L1_016_P4U5Q8R6",
+          "foundationName": "Digital Health Foundation",
+          "marketSize": 456,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_017_Q5V6R9S7",
+          "foundationName": "Medical Devices Foundation",
+          "marketSize": 567,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_018_R6W7S1T8",
+          "foundationName": "Telemedicine Foundation",
+          "marketSize": 234,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_019_S7X8T2U9",
+          "foundationName": "Health Information Systems Foundation",
+          "marketSize": 189,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_020_T8Y9U3V1",
+          "foundationName": "Clinical Research Foundation",
+          "marketSize": 123,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_021_U9Z1V4W2",
+          "foundationName": "Biotechnology Foundation",
+          "marketSize": 345,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_022_V1A2W5X3",
+          "foundationName": "Pharmaceutical Technology Foundation",
+          "marketSize": 678,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_023_W2B3X6Y4",
+          "foundationName": "Medical Imaging Foundation",
+          "marketSize": 167,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_024_X3C4Y7Z5",
+          "foundationName": "Health Data Management Foundation",
+          "marketSize": 145,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_025_Y4D5Z8A6",
+          "foundationName": "Healthcare Analytics Foundation",
+          "marketSize": 112,
+          "status": "completed"
+        }
+      ],
+      "l1PlaceholderRecords": [
+        {
+          "placeholderId": "PLHD_L1_201",
+          "foundationName": "Precision Medicine Foundation",
+          "estimatedMarketSize": 234,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_202",
+          "foundationName": "Gene Therapy Foundation",
+          "estimatedMarketSize": 189,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_203",
+          "foundationName": "Digital Therapeutics Foundation",
+          "estimatedMarketSize": 156,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_204",
+          "foundationName": "Wearable Health Technology Foundation",
+          "estimatedMarketSize": 123,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_205",
+          "foundationName": "Mental Health Technology Foundation",
+          "estimatedMarketSize": 89,
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "l0CategoryId": "L0_03",
+      "categoryName": "Financial Services",
+      "description": "Banking, insurance, investment management, fintech, payment systems, and financial technology",
+      "unspscAlignment": "80000000 - Financial and Insurance Services",
+      "naicsAlignment": "52 - Finance and Insurance",
+      "estimatedMarketSize": 3200,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 9.2,
+      "l1RecordCount": 10,
+      "l1PlaceholderCount": 20,
+      "strategicImportance": "Critical - Digital transformation of financial services",
+      "existingL1Records": [
+        {
+          "recordId": "FOUND_L1_026_Z5E6A9B7",
+          "foundationName": "Banking Technology Foundation",
+          "marketSize": 567,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_027_A6F7B1C8",
+          "foundationName": "Payment Systems Foundation",
+          "marketSize": 456,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_028_B7G8C2D9",
+          "foundationName": "Insurance Technology Foundation",
+          "marketSize": 234,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_029_C8H9D3E1",
+          "foundationName": "Investment Technology Foundation",
+          "marketSize": 345,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_030_D9I1E4F2",
+          "foundationName": "Financial Analytics Foundation",
+          "marketSize": 189,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_031_E1J2F5G3",
+          "foundationName": "Risk Management Systems Foundation",
+          "marketSize": 167,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_032_F2K3G6H4",
+          "foundationName": "Credit Technology Foundation",
+          "marketSize": 123,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_033_G3L4H7I5",
+          "foundationName": "Capital Markets Technology Foundation",
+          "marketSize": 278,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_034_H4M5I8J6",
+          "foundationName": "Wealth Management Technology Foundation",
+          "marketSize": 145,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_035_I5N6J9K7",
+          "foundationName": "Financial Compliance Technology Foundation",
+          "marketSize": 112,
+          "status": "completed"
+        }
+      ],
+      "l1PlaceholderRecords": [
+        {
+          "placeholderId": "PLHD_L1_301",
+          "foundationName": "Cryptocurrency Foundation",
+          "estimatedMarketSize": 234,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_302",
+          "foundationName": "Decentralized Finance Foundation",
+          "estimatedMarketSize": 189,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_303",
+          "foundationName": "Digital Banking Foundation",
+          "estimatedMarketSize": 345,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_304",
+          "foundationName": "Robo-Advisory Foundation",
+          "estimatedMarketSize": 67,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_305",
+          "foundationName": "RegTech Foundation",
+          "estimatedMarketSize": 89,
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "l0CategoryId": "L0_04",
+      "categoryName": "Manufacturing & Production",
+      "description": "Industrial production, automotive, aerospace, chemicals, advanced manufacturing, and production technology",
+      "unspscAlignment": "23000000 - Manufacturing Components and Supplies",
+      "naicsAlignment": "31-33 - Manufacturing",
+      "estimatedMarketSize": 2900,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 6.8,
+      "l1RecordCount": 9,
+      "l1PlaceholderCount": 25,
+      "strategicImportance": "High - Industry 4.0 and smart manufacturing transformation",
+      "existingL1Records": [
+        {
+          "recordId": "FOUND_L1_036_J6O7K1L8",
+          "foundationName": "Industrial Automation Foundation",
+          "marketSize": 456,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_037_K7P8L2M9",
+          "foundationName": "Robotics Technology Foundation",
+          "marketSize": 234,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_038_L8Q9M3N1",
+          "foundationName": "Smart Manufacturing Foundation",
+          "marketSize": 345,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_039_M9R1N4O2",
+          "foundationName": "Additive Manufacturing Foundation",
+          "marketSize": 167,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_040_N1S2O5P3",
+          "foundationName": "Process Control Systems Foundation",
+          "marketSize": 189,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_041_O2T3P6Q4",
+          "foundationName": "Quality Management Systems Foundation",
+          "marketSize": 123,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_042_P3U4Q7R5",
+          "foundationName": "Supply Chain Technology Foundation",
+          "marketSize": 278,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_043_Q4V5R8S6",
+          "foundationName": "Manufacturing Analytics Foundation",
+          "marketSize": 145,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_044_R5W6S9T7",
+          "foundationName": "Manufacturing Cybersecurity Foundation",
+          "marketSize": 89,
+          "status": "completed"
+        }
+      ],
+      "l1PlaceholderRecords": [
+        {
+          "placeholderId": "PLHD_L1_401",
+          "foundationName": "Automotive Technology Foundation",
+          "estimatedMarketSize": 567,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_402",
+          "foundationName": "Aerospace Technology Foundation",
+          "estimatedMarketSize": 345,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_403",
+          "foundationName": "Chemical Process Technology Foundation",
+          "estimatedMarketSize": 234,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_404",
+          "foundationName": "Semiconductor Manufacturing Foundation",
+          "estimatedMarketSize": 456,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_405",
+          "foundationName": "Textile Manufacturing Technology Foundation",
+          "estimatedMarketSize": 123,
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "l0CategoryId": "L0_05",
+      "categoryName": "Energy & Utilities",
+      "description": "Power generation, renewable energy, oil & gas, water utilities, waste management, and energy technology",
+      "unspscAlignment": "26000000 - Power Generation and Distribution",
+      "naicsAlignment": "22 - Utilities, 21 - Mining",
+      "estimatedMarketSize": 2100,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 7.4,
+      "l1RecordCount": 5,
+      "l1PlaceholderCount": 20,
+      "strategicImportance": "Critical - Energy transition and sustainability",
+      "existingL1Records": [
+        {
+          "recordId": "FOUND_L1_045_S6X7T1U8",
+          "foundationName": "Renewable Energy Technology Foundation",
+          "marketSize": 456,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_046_T7Y8U2V9",
+          "foundationName": "Smart Grid Systems Foundation",
+          "marketSize": 234,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_047_U8Z9V3W1",
+          "foundationName": "Energy Storage Systems Foundation",
+          "marketSize": 189,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_048_V9A1W4X2",
+          "foundationName": "Electric Vehicle Technology Foundation",
+          "marketSize": 345,
+          "status": "completed"
+        },
+        {
+          "recordId": "FOUND_L1_049_W1B2X5Y3",
+          "foundationName": "Sustainable Manufacturing Foundation",
+          "marketSize": 167,
+          "status": "completed"
+        }
+      ],
+      "l1PlaceholderRecords": [
+        {
+          "placeholderId": "PLHD_L1_501",
+          "foundationName": "Nuclear Energy Technology Foundation",
+          "estimatedMarketSize": 234,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_502",
+          "foundationName": "Hydrogen Energy Foundation",
+          "estimatedMarketSize": 189,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_503",
+          "foundationName": "Carbon Capture Technology Foundation",
+          "estimatedMarketSize": 156,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_504",
+          "foundationName": "Water Treatment Technology Foundation",
+          "estimatedMarketSize": 123,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_505",
+          "foundationName": "Waste Management Technology Foundation",
+          "estimatedMarketSize": 89,
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "l0CategoryId": "L0_06",
+      "categoryName": "Transportation & Logistics",
+      "description": "Shipping, aviation, rail, trucking, warehousing, supply chain, and transportation technology",
+      "unspscAlignment": "24000000 - Transportation and Storage and Mail Services",
+      "naicsAlignment": "48-49 - Transportation and Warehousing",
+      "estimatedMarketSize": 1800,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 8.1,
+      "l1RecordCount": 1,
+      "l1PlaceholderCount": 15,
+      "strategicImportance": "High - Global trade and e-commerce growth",
+      "existingL1Records": [
+        {
+          "recordId": "FOUND_L1_051_Y3D4A7B5",
+          "foundationName": "Transportation & Logistics Foundation",
+          "marketSize": 6230,
+          "status": "completed"
+        }
+      ],
+      "l1PlaceholderRecords": [
+        {
+          "placeholderId": "PLHD_L1_601",
+          "foundationName": "Autonomous Vehicle Foundation",
+          "estimatedMarketSize": 345,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_602",
+          "foundationName": "Drone Technology Foundation",
+          "estimatedMarketSize": 234,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_603",
+          "foundationName": "Maritime Technology Foundation",
+          "estimatedMarketSize": 189,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_604",
+          "foundationName": "Aviation Technology Foundation",
+          "estimatedMarketSize": 456,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_605",
+          "foundationName": "Logistics Technology Foundation",
+          "estimatedMarketSize": 278,
+          "priority": "high"
+        }
+      ]
+    },
+    {
+      "l0CategoryId": "L0_07",
+      "categoryName": "Retail & Consumer Services",
+      "description": "E-commerce, hospitality, food service, personal care, entertainment, and consumer technology",
+      "unspscAlignment": "50000000 - Food Beverage and Tobacco Products",
+      "naicsAlignment": "44-45 - Retail Trade, 72 - Accommodation and Food Services",
+      "estimatedMarketSize": 2400,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 9.8,
+      "l1RecordCount": 1,
+      "l1PlaceholderCount": 20,
+      "strategicImportance": "High - Digital commerce and consumer experience transformation",
+      "existingL1Records": [
+        {
+          "recordId": "FOUND_L1_052_X8F2C9D1",
+          "foundationName": "Retail & Consumer Services Foundation",
+          "marketSize": 12200,
+          "status": "completed"
+        }
+      ],
+      "l1PlaceholderRecords": [
+        {
+          "placeholderId": "PLHD_L1_701",
+          "foundationName": "E-Commerce Platform Foundation",
+          "estimatedMarketSize": 567,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_702",
+          "foundationName": "Digital Marketing Foundation",
+          "estimatedMarketSize": 345,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_703",
+          "foundationName": "Customer Experience Technology Foundation",
+          "estimatedMarketSize": 234,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_704",
+          "foundationName": "Hospitality Technology Foundation",
+          "estimatedMarketSize": 189,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_705",
+          "foundationName": "Food Technology Foundation",
+          "estimatedMarketSize": 278,
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "l0CategoryId": "L0_08",
+      "categoryName": "Education & Professional Services",
+      "description": "Training, consulting, legal services, accounting, research, and educational technology",
+      "unspscAlignment": "86000000 - Education and Training Services",
+      "naicsAlignment": "54 - Professional Services, 61 - Educational Services",
+      "estimatedMarketSize": 1600,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 7.9,
+      "l1RecordCount": 1,
+      "l1PlaceholderCount": 15,
+      "strategicImportance": "Medium - Digital transformation of professional services",
+      "existingL1Records": [
+        {
+          "recordId": "FOUND_L1_053_Y9G3D2E1",
+          "foundationName": "Education & Professional Services Foundation",
+          "marketSize": 6400,
+          "status": "completed"
+        }
+      ],
+      "l1PlaceholderRecords": [
+        {
+          "placeholderId": "PLHD_L1_801",
+          "foundationName": "Educational Technology Foundation",
+          "estimatedMarketSize": 234,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_802",
+          "foundationName": "Legal Technology Foundation",
+          "estimatedMarketSize": 189,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_803",
+          "foundationName": "Consulting Technology Foundation",
+          "estimatedMarketSize": 156,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_804",
+          "foundationName": "Accounting Technology Foundation",
+          "estimatedMarketSize": 123,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_805",
+          "foundationName": "Research Technology Foundation",
+          "estimatedMarketSize": 89,
+          "priority": "medium"
+        }
+      ]
+    },
+    {
+      "l0CategoryId": "L0_09",
+      "categoryName": "Construction & Real Estate",
+      "description": "Building construction, infrastructure, property development, facilities management, and construction technology",
+      "unspscAlignment": "30000000 - Building and Construction and Maintenance Services",
+      "naicsAlignment": "23 - Construction, 53 - Real Estate",
+      "estimatedMarketSize": 1900,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 6.2,
+      "l1RecordCount": 1,
+      "l1PlaceholderCount": 12,
+      "strategicImportance": "Medium - Infrastructure modernization and smart buildings",
+      "existingL1Records": [
+        {
+          "recordId": "FOUND_L1_054_K8H4F3B2",
+          "foundationName": "Construction & Real Estate Foundation",
+          "marketSize": 2260,
+          "status": "completed"
+        }
+      ],
+      "l1PlaceholderRecords": [
+        {
+          "placeholderId": "PLHD_L1_901",
+          "foundationName": "Construction Technology Foundation",
+          "estimatedMarketSize": 234,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_902",
+          "foundationName": "Smart Building Technology Foundation",
+          "estimatedMarketSize": 189,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_903",
+          "foundationName": "Real Estate Technology Foundation",
+          "estimatedMarketSize": 156,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_904",
+          "foundationName": "Infrastructure Technology Foundation",
+          "estimatedMarketSize": 278,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_905",
+          "foundationName": "Facilities Management Technology Foundation",
+          "estimatedMarketSize": 123,
+          "priority": "low"
+        }
+      ]
+    },
+    {
+      "l0CategoryId": "L0_10",
+      "categoryName": "Agriculture & Natural Resources",
+      "description": "Farming, forestry, mining, food production, agricultural technology, and natural resource management",
+      "unspscAlignment": "01000000 - Live Plant and Animal Material and Accessories and Supplies",
+      "naicsAlignment": "11 - Agriculture, 21 - Mining",
+      "estimatedMarketSize": 1400,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 5.8,
+      "l1RecordCount": 1,
+      "l1PlaceholderCount": 12,
+      "strategicImportance": "Medium - Sustainable agriculture and resource management",
+      "existingL1Records": [
+        {
+          "recordId": "FOUND_L1_055_M9J6G4D3",
+          "foundationName": "Agriculture & Natural Resources Foundation",
+          "marketSize": 15500,
+          "status": "completed"
+        }
+      ],
+      "l1PlaceholderRecords": [
+        {
+          "placeholderId": "PLHD_L1_1001",
+          "foundationName": "Agricultural Technology Foundation",
+          "estimatedMarketSize": 234,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_1002",
+          "foundationName": "Precision Agriculture Foundation",
+          "estimatedMarketSize": 189,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_1003",
+          "foundationName": "Forestry Technology Foundation",
+          "estimatedMarketSize": 123,
+          "priority": "low"
+        },
+        {
+          "placeholderId": "PLHD_L1_1004",
+          "foundationName": "Mining Technology Foundation",
+          "estimatedMarketSize": 156,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_1005",
+          "foundationName": "Aquaculture Technology Foundation",
+          "estimatedMarketSize": 89,
+          "priority": "low"
+        }
+      ]
+    },
+    {
+      "l0CategoryId": "L0_11",
+      "categoryName": "Government & Public Services",
+      "description": "Defense, public administration, social services, emergency services, and government technology",
+      "unspscAlignment": "92000000 - Defense and Law Enforcement and Security and Safety Services",
+      "naicsAlignment": "92 - Public Administration",
+      "estimatedMarketSize": 1200,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 4.5,
+      "l1RecordCount": 1,
+      "l1PlaceholderCount": 10,
+      "strategicImportance": "Medium - Digital government and public service modernization",
+      "existingL1Records": [
+        {
+          "recordId": "FOUND_L1_056_K8H5F2A9",
+          "foundationName": "Government & Public Services Foundation",
+          "marketSize": 35000,
+          "status": "completed"
+        }
+      ],
+      "l1PlaceholderRecords": [
+        {
+          "placeholderId": "PLHD_L1_1101",
+          "foundationName": "Government Technology Foundation",
+          "estimatedMarketSize": 234,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_1102",
+          "foundationName": "Defense Technology Foundation",
+          "estimatedMarketSize": 345,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_1103",
+          "foundationName": "Public Safety Technology Foundation",
+          "estimatedMarketSize": 189,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_1104",
+          "foundationName": "Emergency Services Technology Foundation",
+          "estimatedMarketSize": 123,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_1105",
+          "foundationName": "Social Services Technology Foundation",
+          "estimatedMarketSize": 89,
+          "priority": "low"
+        }
+      ]
+    },
+    {
+      "l0CategoryId": "L0_12",
+      "categoryName": "Entertainment & Creative Industries",
+      "description": "Media production, gaming, sports, arts, publishing, and entertainment technology",
+      "unspscAlignment": "60000000 - Musical Instruments and Games and Toys and Arts and Crafts and Educational Equipment and Materials and Accessories and Supplies",
+      "naicsAlignment": "51 - Information, 71 - Arts and Entertainment",
+      "estimatedMarketSize": 1100,
+      "marketSizeUnit": "billion USD",
+      "growthRate": 11.2,
+      "l1RecordCount": 1,
+      "l1PlaceholderCount": 15,
+      "strategicImportance": "Medium - Digital content and entertainment transformation",
+      "existingL1Records": [
+        {
+          "recordId": "FOUND_L1_057_L9M2N8P4",
+          "foundationName": "Entertainment & Creative Industries Foundation",
+          "marketSize": 2903.15,
+          "status": "completed"
+        }
+      ],
+      "l1PlaceholderRecords": [
+        {
+          "placeholderId": "PLHD_L1_1201",
+          "foundationName": "Gaming Technology Foundation",
+          "estimatedMarketSize": 234,
+          "priority": "high"
+        },
+        {
+          "placeholderId": "PLHD_L1_1202",
+          "foundationName": "Media Production Technology Foundation",
+          "estimatedMarketSize": 189,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_1203",
+          "foundationName": "Sports Technology Foundation",
+          "estimatedMarketSize": 156,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_1204",
+          "foundationName": "Digital Publishing Foundation",
+          "estimatedMarketSize": 123,
+          "priority": "medium"
+        },
+        {
+          "placeholderId": "PLHD_L1_1205",
+          "foundationName": "Creative Arts Technology Foundation",
+          "estimatedMarketSize": 89,
+          "priority": "low"
+        }
+      ]
+    }
+  ],
+  "summaryStatistics": {
+    "totalEstimatedMarketSize": 26700,
+    "averageGrowthRate": 8.2,
+    "totalExistingL1Records": 49,
+    "totalMissingL1Records": 51,
+    "totalPlaceholderRecords": 204,
+    "highPriorityPlaceholders": 89,
+    "mediumPriorityPlaceholders": 78,
+    "lowPriorityPlaceholders": 37,
+    "categoryDistribution": {
+      "criticalImportance": 3,
+      "highImportance": 4,
+      "mediumImportance": 5
+    }
+  },
+  "webAppQueries": {
+    "categoryLookup": "GET /api/l0/categories/{l0CategoryId}",
+    "l1RecordsByCategory": "GET /api/l0/categories/{l0CategoryId}/l1-records",
+    "placeholdersByPriority": "GET /api/l0/placeholders?priority={priority}",
+    "marketSizeRanking": "GET /api/l0/categories?sort=marketSize&order=desc",
+    "growthRateRanking": "GET /api/l0/categories?sort=growthRate&order=desc"
+  }
+}
+

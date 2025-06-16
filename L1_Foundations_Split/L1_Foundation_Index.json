@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "totalFoundations": 4,
+    "splitDate": "2025-06-16T18:25:00Z",
+    "purpose": "LLM-optimized foundation access for Etsy and patent analysis",
+    "focusAreas": ["AI Software", "E-Commerce Platforms", "Design Software", "Payment Processing"]
+  },
+  "foundations": [
+    {
+      "id": "L1_001_AI_SOFTWARE",
+      "title": "Artificial Intelligence Software Foundation",
+      "domain": "AI Software Development and Applications",
+      "file": "L1_001_AI_SOFTWARE.json",
+      "etsyRelevance": "high",
+      "patentDensity": "very high"
+    },
+    {
+      "id": "L1_002_ECOMMERCE_PLATFORMS", 
+      "title": "E-Commerce Platform Foundation",
+      "domain": "Digital Commerce and Marketplace Technologies",
+      "file": "L1_002_ECOMMERCE_PLATFORMS.json",
+      "etsyRelevance": "very high",
+      "patentDensity": "high"
+    },
+    {
+      "id": "L1_003_DESIGN_SOFTWARE",
+      "title": "Design Software and Creative Tools Foundation", 
+      "domain": "Digital Design and Creative Software Applications",
+      "file": "L1_003_DESIGN_SOFTWARE.json",
+      "etsyRelevance": "very high",
+      "patentDensity": "medium-high"
+    },
+    {
+      "id": "L1_004_PAYMENT_PROCESSING",
+      "title": "Payment Processing and Financial Technology Foundation",
+      "domain": "Digital Payment Systems and Financial Services", 
+      "file": "L1_004_PAYMENT_PROCESSING.json",
+      "etsyRelevance": "high",
+      "patentDensity": "very high"
+    }
+  ]
+}
+
