@@ -1,0 +1,172 @@
+{
+  "violationDetectionFramework": {
+    "aiAgentCapabilities": {
+      "technicalDescriptionAnalysis": {
+        "inputProcessing": {
+          "naturalLanguageUnderstanding": "Extract technical elements from user descriptions of their system designs",
+          "technicalElementExtraction": "Identify specific algorithms, data structures, and implementation patterns",
+          "contextualAnalysis": "Understand the business context and use case for the technical implementation"
+        },
+        "patentMatchingAlgorithms": {
+          "semanticSimilarity": {
+            "description": "Use vector embeddings to find semantically similar patent claims",
+            "threshold": 0.85,
+            "weightingFactors": ["technical_element_overlap", "implementation_similarity", "use_case_alignment"]
+          },
+          "technicalElementMatching": {
+            "description": "Direct matching of technical elements against patent claim components",
+            "exactMatches": "High risk - direct implementation of patented technical elements",
+            "partialMatches": "Medium risk - similar but not identical technical approaches",
+            "conceptualMatches": "Low-medium risk - conceptually similar but different implementation"
+          },
+          "claimAnalysis": {
+            "independentClaimMatching": "Primary violation risk assessment based on independent claims",
+            "dependentClaimAnalysis": "Additional risk factors from dependent claims",
+            "claimScopeEvaluation": "Assess whether user implementation falls within claim scope"
+          }
+        }
+      },
+      "riskAssessmentEngine": {
+        "violationLikelihoodCalculation": {
+          "factors": [
+            {
+              "factor": "Technical Element Overlap",
+              "weight": 0.4,
+              "description": "Percentage of patent claim technical elements present in user description"
+            },
+            {
+              "factor": "Implementation Similarity", 
+              "weight": 0.3,
+              "description": "Similarity of implementation approach to patented method"
+            },
+            {
+              "factor": "Use Case Alignment",
+              "weight": 0.2,
+              "description": "Alignment of user's use case with patent's intended application"
+            },
+            {
+              "factor": "Patent Strength",
+              "weight": 0.1,
+              "description": "Assessment of patent validity and enforceability"
+            }
+          ],
+          "riskLevels": {
+            "veryHigh": {
+              "threshold": 0.8,
+              "description": "Direct implementation of patented technology with high violation likelihood",
+              "recommendedAction": "Avoid implementation or seek licensing"
+            },
+            "high": {
+              "threshold": 0.6,
+              "description": "Significant overlap with patent claims requiring careful analysis",
+              "recommendedAction": "Detailed patent analysis and potential design-around"
+            },
+            "medium": {
+              "threshold": 0.4,
+              "description": "Some overlap but potential for design-around approaches",
+              "recommendedAction": "Consider alternative implementations"
+            },
+            "low": {
+              "threshold": 0.2,
+              "description": "Minimal overlap with existing patents",
+              "recommendedAction": "Proceed with standard IP monitoring"
+            }
+          }
+        },
+        "evidenceGeneration": {
+          "claimMapping": "Map user technical description to specific patent claim elements",
+          "violationEvidence": "Generate specific evidence of potential patent violation",
+          "priorArtAnalysis": "Identify relevant prior art that may invalidate patent claims",
+          "defensiveStrategies": "Suggest defensive patent strategies and prior art references"
+        }
+      },
+      "responseGeneration": {
+        "actionableRecommendations": {
+          "immediateActions": [
+            "Specific technical modifications to avoid patent infringement",
+            "Alternative implementation approaches with lower risk",
+            "Licensing opportunities and contact information",
+            "Prior art references for potential patent challenges"
+          ],
+          "strategicGuidance": [
+            "Long-term IP strategy recommendations",
+            "Patent filing opportunities for novel aspects",
+            "Competitive positioning relative to patent landscape",
+            "Risk mitigation strategies for ongoing development"
+          ]
+        },
+        "supportingEvidence": {
+          "patentClaimCitations": "Specific patent claims that may be infringed",
+          "technicalElementMapping": "Detailed mapping of user technology to patent elements",
+          "riskJustification": "Explanation of risk assessment methodology and factors",
+          "alternativeApproaches": "Specific technical alternatives with implementation guidance"
+        }
+      }
+    },
+    "exampleInteractions": [
+      {
+        "userInput": "I'm building a recommendation system that uses collaborative filtering with matrix factorization. Users rate products and I decompose the user-item matrix using SVD to find latent factors, then use these to predict ratings for new products.",
+        "aiAnalysis": {
+          "extractedElements": ["collaborative filtering", "matrix factorization", "user-item matrix", "SVD", "latent factors", "rating prediction"],
+          "patentMatches": [
+            {
+              "patent": "US10,789,552",
+              "matchingClaims": ["Claim 1", "Claim 2"],
+              "riskLevel": "Very High",
+              "violationLikelihood": 0.92
+            }
+          ],
+          "riskAssessment": "Very High - Direct implementation of patented Amazon recommendation technology"
+        },
+        "aiResponse": {
+          "riskAlert": "⚠️ VERY HIGH PATENT RISK DETECTED",
+          "specificViolations": [
+            "Your described implementation directly matches Amazon's US10,789,552 patent claims 1 and 2, which cover collaborative filtering using matrix factorization with SVD for latent factor extraction."
+          ],
+          "evidence": [
+            "Patent Claim 1 specifically covers: 'applying collaborative filtering using matrix factorization with latent factors derived from user-item interaction matrices'",
+            "Patent Claim 2 covers: 'matrix factorization uses singular value decomposition with regularization'"
+          ],
+          "recommendations": [
+            "IMMEDIATE: Do not implement this approach without licensing from Amazon",
+            "ALTERNATIVE 1: Use neural collaborative filtering (NCF) which uses neural networks instead of matrix factorization",
+            "ALTERNATIVE 2: Implement content-based filtering using product features instead of collaborative filtering",
+            "ALTERNATIVE 3: License Amazon's technology or use their recommendation API service"
+          ],
+          "supportingDocuments": [
+            "Full patent text: US10,789,552",
+            "Prior art analysis: Koren et al. 2009 matrix factorization survey",
+            "Alternative implementation guide: Neural Collaborative Filtering approaches"
+          ]
+        }
+      },
+      {
+        "userInput": "I want to create a marketplace search algorithm that ranks products based on environmental impact and carbon footprint data.",
+        "aiAnalysis": {
+          "extractedElements": ["marketplace search", "product ranking", "environmental impact", "carbon footprint"],
+          "patentMatches": [],
+          "whitespaceOpportunity": "Sustainable Commerce Algorithms",
+          "riskLevel": "Low"
+        },
+        "aiResponse": {
+          "opportunityAlert": "🌟 PATENT WHITESPACE OPPORTUNITY IDENTIFIED",
+          "analysis": "Your described approach falls into the 'Sustainable Commerce Algorithms' whitespace area with low patent density and high innovation potential.",
+          "patentability": "HIGH - Novel combination of environmental data with e-commerce search algorithms",
+          "recommendations": [
+            "OPPORTUNITY: File provisional patent application to establish priority",
+            "IMPLEMENTATION: Integrate carbon footprint APIs with search ranking algorithms",
+            "MARKET VALIDATION: Growing consumer demand for sustainable shopping options",
+            "COMPETITIVE ADVANTAGE: First-mover advantage in sustainability-focused e-commerce"
+          ],
+          "technicalGuidance": [
+            "Develop carbon footprint database integration with existing search engines",
+            "Create environmental scoring system for product ranking",
+            "Implement sustainability filtering and recommendation features"
+          ],
+          "priorArtGaps": "No existing patents combine carbon footprint calculation with e-commerce search ranking algorithms"
+        }
+      }
+    ]
+  }
+}
+
