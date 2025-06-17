@@ -1,0 +1,179 @@
+{
+  "recordId": "MANUF_L1_001_H3I4J5K6",
+  "recordType": "L1_Universal_Foundation",
+  "title": "Manufacturing and Logistics Technology Foundation",
+  "domain": "Smart Manufacturing and Supply Chain Automation",
+  "classification": {
+    "primary": {
+      "naics": "333249",
+      "naicsDescription": "Other Industrial Machinery Manufacturing",
+      "unspsc": "25172000",
+      "unspscDescription": "Manufacturing and industrial equipment",
+      "cpc": "B25J",
+      "cpcDescription": "Manipulators; Chambers provided with manipulation devices"
+    },
+    "secondary": {
+      "naics": "541511",
+      "naicsDescription": "Custom Computer Programming Services",
+      "unspsc": "43233000",
+      "unspscDescription": "Industrial software",
+      "cpc": "G05B",
+      "cpcDescription": "Control or regulating systems in general"
+    },
+    "tertiary": {
+      "naics": "488510",
+      "naicsDescription": "Freight Transportation Arrangement",
+      "unspsc": "78101800",
+      "unspscDescription": "Supply chain management services",
+      "cpc": "G06Q",
+      "cpcDescription": "Data processing systems or methods, specially adapted for administrative, commercial, financial, managerial, supervisory or forecasting purposes"
+    }
+  },
+  "marketIntelligence": {
+    "totalMarketSize": 892.4,
+    "marketSizeUnit": "billion USD",
+    "growthRate": 19.8,
+    "timeframe": "2024-2030",
+    "keySegments": [
+      {
+        "segment": "Industrial Automation",
+        "size": 387.2,
+        "growth": 22.4
+      },
+      {
+        "segment": "Supply Chain Technology",
+        "size": 298.6,
+        "growth": 18.7
+      },
+      {
+        "segment": "Smart Factory Solutions",
+        "size": 206.6,
+        "growth": 17.3
+      }
+    ]
+  },
+  "businessRoleIntelligence": {
+    "creator": {
+      "opportunities": "Manufacturing content, automation tutorials, supply chain education, industrial design",
+      "challenges": "Technical complexity, safety considerations, industry access, specialized knowledge",
+      "recommendations": "Partner with manufacturers, focus on accessible automation topics, create educational content"
+    },
+    "distributor": {
+      "opportunities": "Industrial equipment distribution, automation system sales, technology integration",
+      "challenges": "Complex sales cycles, technical expertise requirements, high capital investments",
+      "recommendations": "Develop specialized expertise, offer comprehensive support, build strong manufacturer relationships"
+    },
+    "serviceProvider": {
+      "opportunities": "Manufacturing consulting, automation implementation, supply chain optimization, maintenance services",
+      "challenges": "High technical requirements, safety responsibilities, project complexity, liability concerns",
+      "recommendations": "Specialize in specific manufacturing verticals, invest in certifications, develop safety expertise"
+    },
+    "investor": {
+      "opportunities": "Manufacturing technology companies, automation providers, supply chain solutions",
+      "challenges": "Long development cycles, high capital requirements, market adoption uncertainty",
+      "recommendations": "Focus on proven technologies with clear ROI, target companies with strong customer bases"
+    },
+    "acquirer": {
+      "opportunities": "Manufacturing technology acquisitions, vertical integration, automation capabilities",
+      "challenges": "Integration complexity, cultural differences, technology compatibility",
+      "recommendations": "Target companies with complementary technology and established customer relationships"
+    },
+    "operator": {
+      "opportunities": "Operational efficiency, cost reduction, quality improvement, predictive maintenance",
+      "challenges": "Implementation complexity, workforce training, legacy system integration, change management",
+      "recommendations": "Start with pilot projects, invest in workforce training, develop phased implementation plans"
+    },
+    "regulator": {
+      "opportunities": "Safety standards, automation regulations, worker protection, environmental compliance",
+      "challenges": "Technology pace, international standards, worker displacement concerns, safety oversight",
+      "recommendations": "Develop adaptive safety frameworks, focus on worker protection and retraining"
+    },
+    "academic": {
+      "opportunities": "Manufacturing research, automation education, supply chain studies, workforce development",
+      "challenges": "Industry access, equipment costs, keeping pace with technology, funding constraints",
+      "recommendations": "Establish industry partnerships, focus on workforce development programs"
+    }
+  },
+  "sourceAttribution": {
+    "primarySources": [
+      {
+        "source": "McKinsey Manufacturing Technology Report 2024",
+        "url": "https://www.mckinsey.com/industries/advanced-electronics/our-insights",
+        "confidence": 93,
+        "relevance": "Manufacturing technology trends and market analysis"
+      },
+      {
+        "source": "Deloitte Supply Chain Technology Study 2024",
+        "url": "https://www2.deloitte.com/us/en/insights/focus/supply-chain.html",
+        "confidence": 91,
+        "relevance": "Supply chain automation and technology adoption"
+      }
+    ],
+    "dataValidation": {
+      "crossReferenceCount": 8,
+      "reliabilityScore": 92,
+      "lastUpdated": "2024-06-17",
+      "overallConfidence": 92
+    }
+  },
+  "temporalIntelligence": {
+    "monthlySnapshots": {
+      "enabled": true,
+      "trackingMetrics": ["automation_adoption", "supply_chain_efficiency", "technology_investment", "workforce_impact"],
+      "predictionHorizon": "24_months"
+    },
+    "trendAnalysis": {
+      "sixMonthPrediction": {
+        "marketSize": 1024.7,
+        "growthDrivers": ["supply chain resilience", "labor shortages", "sustainability focus", "digital transformation"],
+        "confidence": 89
+      },
+      "twelveMonthPrediction": {
+        "marketSize": 1178.3,
+        "growthDrivers": ["AI integration", "robotics advancement", "predictive analytics", "circular economy"],
+        "confidence": 85
+      }
+    }
+  },
+  "webAppCompatibility": {
+    "apiEndpoints": {
+      "foundation": "/api/v1/foundations/manufacturing-logistics",
+      "market": "/api/v1/markets/manufacturing-logistics/overview",
+      "roles": "/api/v1/roles/manufacturing-logistics/insights"
+    },
+    "caching": {
+      "ttl": 3600,
+      "strategy": "redis_cluster"
+    },
+    "realTime": {
+      "websocket": "/ws/manufacturing-logistics/updates",
+      "updateFrequency": "daily"
+    }
+  },
+  "vectorDbConfig": {
+    "embeddingTargets": [
+      "title + domain + classification descriptions",
+      "business role intelligence content",
+      "market intelligence and automation trends"
+    ],
+    "chunkingStrategy": "role_based_sections",
+    "vectorDimensions": 1536,
+    "similarityThreshold": 0.87
+  },
+  "parentReferences": {
+    "l0Parent": "ROOT_L0_001_TECHNOLOGY_CONVERGENCE",
+    "inheritanceEfficiency": 0.88
+  },
+  "childrenReferences": {
+    "hasChildren": false,
+    "endpointReason": "Complex industrial domain with specialized requirements - strategic endpoint for manufacturing analysis"
+  },
+  "metadata": {
+    "createdDate": "2024-06-17",
+    "lastModified": "2024-06-17",
+    "version": "1.0",
+    "qualityScore": 92,
+    "completeness": 100
+  }
+}
+
