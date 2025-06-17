@@ -1,0 +1,112 @@
+{
+  "recordId": "FOUND_L1_005_IOT_DEVICES_G3H4I5J6",
+  "hierarchyLevel": 1,
+  "recordType": "universal_foundation",
+  "createdDate": "2024-12-16",
+  "facetedIdentity": {
+    "primary_naics": "334418",
+    "secondary_naics": "541511",
+    "tertiary_naics": "423430",
+    "primary_unspsc": "43191500",
+    "secondary_unspsc": "43233000",
+    "tertiary_unspsc": "44121700",
+    "primary_cpc": "H04W",
+    "secondary_cpc": "G06F",
+    "tertiary_cpc": "G08C",
+    "intersectionDescription": "IoT Devices: Electronic Instrument Manufacturing + Custom Programming + Computer Equipment"
+  },
+  "parentReferences": {
+    "l0Parent": "ROOT_L0_003_TECHNOLOGY_CONVERGENCE",
+    "inheritanceChain": ["ROOT_L0_003", "FOUND_L1_005"]
+  },
+  "marketIntelligence": {
+    "marketSize": "$1.1T",
+    "growthRate": "22.4%",
+    "marketSizeNumeric": 1100000000000,
+    "growthRateNumeric": 0.224,
+    "competitivePosition": {
+      "marketLeader": "Amazon",
+      "marketShare": "23.8%",
+      "keyCompetitors": ["Google (18.2%)", "Apple (15.7%)", "Samsung (12.4%)", "Microsoft (9.8%)"]
+    }
+  },
+  "businessRoleIntelligence": {
+    "creator": {
+      "opportunityScore": 8.9,
+      "marketOpportunity": "IoT device reviews, smart home content, technology tutorials",
+      "implementationComplexity": "Medium",
+      "timeToValue": "3-6 months",
+      "investmentRequired": "$25K-150K",
+      "revenueUpside": "$300K-1.5M annually",
+      "strategicConsiderations": "Focus on practical IoT applications and user education"
+    },
+    "distributor": {
+      "opportunityScore": 9.3,
+      "marketOpportunity": "IoT device distribution, ecosystem integration, channel partnerships",
+      "implementationComplexity": "High",
+      "timeToValue": "6-18 months",
+      "investmentRequired": "$1M-10M",
+      "revenueUpside": "$5M-50M annually",
+      "strategicConsiderations": "Build comprehensive IoT ecosystems with seamless integration"
+    },
+    "serviceProvider": {
+      "opportunityScore": 9.1,
+      "marketOpportunity": "IoT implementation consulting, system integration, maintenance services",
+      "implementationComplexity": "High",
+      "timeToValue": "4-12 months",
+      "investmentRequired": "$500K-5M",
+      "revenueUpside": "$2M-20M annually",
+      "strategicConsiderations": "Develop expertise in enterprise IoT deployments and security"
+    },
+    "investor": {
+      "opportunityScore": 9.6,
+      "marketOpportunity": "High-growth IoT technology investments, platform plays",
+      "implementationComplexity": "Low",
+      "timeToValue": "12-36 months",
+      "investmentRequired": "$5M-500M",
+      "revenueUpside": "$50M-5B potential",
+      "strategicConsiderations": "Target companies with strong platform capabilities and ecosystem potential"
+    },
+    "acquirer": {
+      "opportunityScore": 9.0,
+      "marketOpportunity": "Strategic IoT technology acquisition, platform consolidation",
+      "implementationComplexity": "High",
+      "timeToValue": "18-48 months",
+      "investmentRequired": "$100M-10B",
+      "revenueUpside": "$1B-100B strategic value",
+      "strategicConsiderations": "Focus on companies with complementary IoT technologies and market reach"
+    },
+    "operator": {
+      "opportunityScore": 8.4,
+      "marketOpportunity": "Enterprise IoT deployment, operational efficiency, cost reduction",
+      "implementationComplexity": "High",
+      "timeToValue": "6-24 months",
+      "investmentRequired": "$1M-50M",
+      "revenueUpside": "$10M-500M cost savings",
+      "strategicConsiderations": "Integrate IoT with existing enterprise systems and workflows"
+    },
+    "regulator": {
+      "opportunityScore": 7.8,
+      "marketOpportunity": "IoT security standards, privacy regulation, spectrum management",
+      "implementationComplexity": "Very High",
+      "timeToValue": "24-60 months",
+      "investmentRequired": "$10M-100M",
+      "revenueUpside": "Regulatory compliance value",
+      "strategicConsiderations": "Balance innovation with security, privacy, and safety requirements"
+    },
+    "academic": {
+      "opportunityScore": 8.7,
+      "marketOpportunity": "IoT research, edge computing, distributed systems",
+      "implementationComplexity": "Medium",
+      "timeToValue": "12-48 months",
+      "investmentRequired": "$1M-20M",
+      "revenueUpside": "Research funding and IP value",
+      "strategicConsiderations": "Focus on emerging IoT technologies and interdisciplinary applications"
+    }
+  },
+  "childrenReferences": {
+    "l2Children": ["MKT_L2_007_SMART_HOME_DEVICES", "MKT_L2_008_INDUSTRIAL_IOT", "MKT_L2_009_WEARABLE_IOT"],
+    "totalDescendants": 9
+  }
+}
+

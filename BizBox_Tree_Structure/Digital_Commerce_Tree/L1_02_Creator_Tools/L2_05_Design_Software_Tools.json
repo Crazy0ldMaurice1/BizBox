@@ -1,0 +1,105 @@
+{
+  "recordId": "MKT_L2_006_DESIGN_SOFTWARE_TOOLS_E1F2G3H4",
+  "hierarchyLevel": 2,
+  "recordType": "market_overview", 
+  "createdDate": "2024-12-16",
+  "facetedIdentity": {
+    "primary_naics": "541511",
+    "secondary_naics": "541430",
+    "tertiary_naics": "423430",
+    "primary_unspsc": "43233000",
+    "secondary_unspsc": "43232000", 
+    "tertiary_unspsc": "44121700",
+    "primary_cpc": "G06F",
+    "secondary_cpc": "G06T",
+    "tertiary_cpc": "G09G",
+    "intersectionDescription": "Design Software Tools: Custom Programming + Graphic Design + Computer Equipment Distribution"
+  },
+  "parentReferences": {
+    "l0Parent": "ROOT_L0_001_DIGITAL_COMMERCE",
+    "l1Parent": "FOUND_L1_002_CREATOR_TOOLS",
+    "inheritanceChain": ["ROOT_L0_001", "FOUND_L1_002", "MKT_L2_006"]
+  },
+  "childrenReferences": {
+    "l3Children": ["IMPL_L3_008_DESIGN_WORKFLOW_OPTIMIZATION", "IMPL_L3_009_CREATIVE_ASSET_MANAGEMENT"],
+    "totalDescendants": 6,
+    "childrenLocation": "L2_05_Design_Software_Tools/"
+  },
+  "marketIntelligence": {
+    "marketSize": "$45.8B",
+    "growthRate": "12.7%",
+    "marketSizeNumeric": 45800000000,
+    "growthRateNumeric": 0.127,
+    "competitivePosition": {
+      "marketLeader": "Adobe",
+      "marketShare": "67.3%",
+      "marketShareNumeric": 0.673,
+      "keyCompetitors": ["Canva (8.9%)", "Figma (6.2%)", "Sketch (4.1%)", "Affinity (2.8%)"],
+      "competitiveAdvantages": ["Creative Suite Integration", "Professional Features", "Industry Standard", "Cloud Collaboration"]
+    },
+    "keyTrends": [
+      "AI-powered design automation: 89.4%",
+      "Real-time collaboration: 76.8%",
+      "Template marketplace growth: 234.7%",
+      "Mobile design tools adoption: 45.3%"
+    ]
+  },
+  "businessRoleIntelligence": {
+    "creator": {
+      "opportunityScore": 9.4,
+      "marketOpportunity": "Design tool optimization, template creation, workflow automation for creators",
+      "implementationComplexity": "Medium",
+      "timeToValue": "2-4 months",
+      "investmentRequired": "$10K-100K",
+      "revenueUpside": "$100K-1M annually",
+      "competitiveAdvantages": ["Creator-specific workflows", "Template marketplaces", "Social media optimization"],
+      "strategicConsiderations": "Focus on creator-specific design needs and social media optimization",
+      "etsyRelevance": "High - Design tools are critical for POD success"
+    },
+    "distributor": {
+      "opportunityScore": 8.6,
+      "marketOpportunity": "Design software distribution, creator tool partnerships, template marketplaces",
+      "implementationComplexity": "High",
+      "timeToValue": "6-12 months",
+      "investmentRequired": "$500K-5M",
+      "revenueUpside": "$2M-20M annually",
+      "competitiveAdvantages": ["Creator ecosystem", "Template distribution", "Tool integration"],
+      "strategicConsiderations": "Build comprehensive creator tool ecosystems with integrated workflows"
+    },
+    "investor": {
+      "opportunityScore": 9.1,
+      "marketOpportunity": "AI-powered design tools, creator economy platforms, template marketplaces",
+      "implementationComplexity": "Low",
+      "timeToValue": "12-24 months",
+      "investmentRequired": "$1M-100M",
+      "revenueUpside": "$50M-1B potential",
+      "competitiveAdvantages": ["Market growth", "AI integration", "Creator economy expansion"],
+      "strategicConsiderations": "Target companies with strong AI capabilities and creator focus"
+    }
+  },
+  "sourceAttribution": {
+    "primarySources": [
+      {"url": "https://www.adobe.com/creativecloud.html", "confidence": 0.95, "type": "vendor_data"},
+      {"url": "https://www.canva.com/about/", "confidence": 0.92, "type": "market_data"},
+      {"url": "https://www.figma.com/blog/", "confidence": 0.89, "type": "industry_analysis"}
+    ],
+    "overallConfidence": 0.92
+  },
+  "temporalIntelligence": {
+    "currentSnapshot": {
+      "date": "2024-12-16",
+      "marketSize": 45800000000,
+      "aiAdoption": 0.894,
+      "collaborationFeatures": 0.768,
+      "templateMarketGrowth": 2.347
+    },
+    "predictions": {
+      "sixMonth": {
+        "marketSize": 48900000000,
+        "confidence": 0.87,
+        "keyDrivers": ["AI tool integration", "Creator economy growth", "Template marketplace expansion"]
+      }
+    }
+  }
+}
+

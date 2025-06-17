@@ -1,0 +1,124 @@
+{
+  "recordId": "FOUND_L1_008_AI_SOFTWARE_RESTRUCTURED_H4I5J6K7",
+  "hierarchyLevel": 1,
+  "recordType": "universal_foundation",
+  "createdDate": "2024-12-16",
+  "facetedIdentity": {
+    "primary_naics": "541511",
+    "secondary_naics": "541512", 
+    "tertiary_naics": "334614",
+    "primary_unspsc": "43232000",
+    "secondary_unspsc": "43233000",
+    "tertiary_unspsc": "43234000",
+    "primary_cpc": "G06N",
+    "secondary_cpc": "G06F",
+    "tertiary_cpc": "G06T",
+    "intersectionDescription": "AI Software: Custom Programming + Computer Programming Services + Software Reproducing"
+  },
+  "parentReferences": {
+    "l0Parent": "ROOT_L0_001_DIGITAL_COMMERCE",
+    "inheritanceChain": ["ROOT_L0_001", "FOUND_L1_008"]
+  },
+  "marketIntelligence": {
+    "marketSize": "$1.85T",
+    "growthRate": "37.3%",
+    "marketSizeNumeric": 1847200000000,
+    "growthRateNumeric": 0.373,
+    "keySegments": [
+      {"segment": "Generative AI Platforms", "size": "$43.7B", "growth": "47.2%"},
+      {"segment": "AI Development Tools", "size": "$28.9B", "growth": "34.1%"},
+      {"segment": "AI Infrastructure", "size": "$156.3B", "growth": "42.8%"}
+    ]
+  },
+  "businessRoleIntelligence": {
+    "creator": {
+      "opportunityScore": 9.2,
+      "marketOpportunity": "AI-powered content creation, design automation, listing optimization",
+      "implementationComplexity": "Medium",
+      "timeToValue": "2-4 months",
+      "investmentRequired": "$5K-50K",
+      "revenueUpside": "$100K-1M annually",
+      "etsyApplications": {
+        "designAutomation": "AI-powered design tools for print-on-demand creators using Midjourney, DALL-E, Stable Diffusion",
+        "listingOptimization": "AI-driven SEO and listing optimization with ChatGPT, Jasper, Copy.ai",
+        "customerService": "AI chatbots for customer support using Intercom, Zendesk AI, ChatGPT API"
+      },
+      "strategicConsiderations": "Focus on AI tools that enhance creativity and automate repetitive tasks"
+    },
+    "distributor": {
+      "opportunityScore": 9.5,
+      "marketOpportunity": "AI software distribution, platform partnerships, ecosystem integration",
+      "implementationComplexity": "High",
+      "timeToValue": "6-18 months",
+      "investmentRequired": "$1M-20M",
+      "revenueUpside": "$10M-200M annually",
+      "strategicConsiderations": "Build comprehensive AI ecosystems with integrated workflows"
+    },
+    "serviceProvider": {
+      "opportunityScore": 9.0,
+      "marketOpportunity": "AI implementation consulting, custom AI solutions, training services",
+      "implementationComplexity": "High",
+      "timeToValue": "3-12 months",
+      "investmentRequired": "$500K-10M",
+      "revenueUpside": "$2M-50M annually",
+      "strategicConsiderations": "Develop deep AI expertise and industry-specific solutions"
+    },
+    "investor": {
+      "opportunityScore": 9.8,
+      "marketOpportunity": "High-growth AI investments, platform plays, infrastructure investments",
+      "implementationComplexity": "Low",
+      "timeToValue": "12-36 months",
+      "investmentRequired": "$10M-1B",
+      "revenueUpside": "$100M-50B potential",
+      "strategicConsiderations": "Target companies with strong AI capabilities and market positioning"
+    },
+    "acquirer": {
+      "opportunityScore": 9.3,
+      "marketOpportunity": "Strategic AI technology acquisition, talent acquisition, IP consolidation",
+      "implementationComplexity": "High",
+      "timeToValue": "18-48 months",
+      "investmentRequired": "$100M-50B",
+      "revenueUpside": "$1B-500B strategic value",
+      "strategicConsiderations": "Focus on companies with complementary AI technologies and market reach"
+    },
+    "operator": {
+      "opportunityScore": 8.7,
+      "marketOpportunity": "Enterprise AI deployment, operational efficiency, automation",
+      "implementationComplexity": "High",
+      "timeToValue": "6-24 months",
+      "investmentRequired": "$1M-100M",
+      "revenueUpside": "$10M-1B cost savings",
+      "strategicConsiderations": "Integrate AI with existing enterprise systems and workflows"
+    },
+    "regulator": {
+      "opportunityScore": 8.1,
+      "marketOpportunity": "AI governance, safety standards, ethical AI frameworks",
+      "implementationComplexity": "Very High",
+      "timeToValue": "24-60 months",
+      "investmentRequired": "$50M-500M",
+      "revenueUpside": "Regulatory compliance value",
+      "strategicConsiderations": "Balance innovation with safety, privacy, and ethical considerations"
+    },
+    "academic": {
+      "opportunityScore": 9.4,
+      "marketOpportunity": "AI research, algorithm development, interdisciplinary applications",
+      "implementationComplexity": "Medium",
+      "timeToValue": "12-48 months",
+      "investmentRequired": "$5M-100M",
+      "revenueUpside": "Research funding and IP value",
+      "strategicConsiderations": "Focus on fundamental AI research and emerging applications"
+    }
+  },
+  "childrenReferences": {
+    "l2Children": ["MKT_L2_010_GENERATIVE_AI_PLATFORMS", "MKT_L2_011_AI_DEVELOPMENT_TOOLS"],
+    "totalDescendants": 6
+  },
+  "sourceAttribution": {
+    "primarySources": [
+      {"source": "Existing L1_001_AI_SOFTWARE foundation data", "confidence": 0.95, "type": "internal_data"},
+      {"source": "Market intelligence cache", "confidence": 0.93, "type": "market_analysis"}
+    ],
+    "overallConfidence": 0.94
+  }
+}
+

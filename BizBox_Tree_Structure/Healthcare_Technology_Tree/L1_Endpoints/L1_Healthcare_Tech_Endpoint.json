@@ -1,0 +1,77 @@
+{
+  "recordId": "FOUND_L1_009_HEALTHCARE_TECH_ENDPOINT_I5J6K7L8",
+  "hierarchyLevel": 1,
+  "recordType": "universal_foundation_endpoint",
+  "createdDate": "2024-12-16",
+  "facetedIdentity": {
+    "primary_naics": "621",
+    "secondary_naics": "334",
+    "tertiary_naics": "541",
+    "primary_unspsc": "4218",
+    "secondary_unspsc": "4319",
+    "tertiary_unspsc": "4323",
+    "primary_cpc": "A61",
+    "secondary_cpc": "G16",
+    "tertiary_cpc": "G06",
+    "intersectionDescription": "Healthcare Technology: Ambulatory Care + Electronic Manufacturing + Professional Services"
+  },
+  "parentReferences": {
+    "l0Parent": "ROOT_L0_004_HEALTHCARE_TECHNOLOGY",
+    "inheritanceChain": ["ROOT_L0_004", "FOUND_L1_009"]
+  },
+  "marketIntelligence": {
+    "marketSize": "$659.8B",
+    "growthRate": "18.6%",
+    "marketSizeNumeric": 659800000000,
+    "growthRateNumeric": 0.186,
+    "keySegments": ["Digital Health ($295B)", "Medical Devices ($208B)", "Health Analytics ($156B)"]
+  },
+  "businessRoleIntelligence": {
+    "creator": {
+      "opportunityScore": 8.3,
+      "marketOpportunity": "Health content creation, medical education, wellness coaching",
+      "revenueUpside": "$150K-800K annually"
+    },
+    "distributor": {
+      "opportunityScore": 9.1,
+      "marketOpportunity": "Healthcare technology distribution, medical device partnerships",
+      "revenueUpside": "$5M-100M annually"
+    },
+    "serviceProvider": {
+      "opportunityScore": 9.4,
+      "marketOpportunity": "Healthcare IT consulting, telemedicine implementation, compliance services",
+      "revenueUpside": "$2M-50M annually"
+    },
+    "investor": {
+      "opportunityScore": 9.2,
+      "marketOpportunity": "Digital health investments, medical device funding, health tech platforms",
+      "revenueUpside": "$50M-10B potential"
+    },
+    "acquirer": {
+      "opportunityScore": 8.8,
+      "marketOpportunity": "Healthcare technology acquisition, medical device consolidation",
+      "revenueUpside": "$1B-50B strategic value"
+    },
+    "operator": {
+      "opportunityScore": 9.0,
+      "marketOpportunity": "Healthcare system optimization, patient care improvement, cost reduction",
+      "revenueUpside": "$10M-1B cost savings"
+    },
+    "regulator": {
+      "opportunityScore": 8.9,
+      "marketOpportunity": "Healthcare regulation, medical device approval, patient safety standards",
+      "revenueUpside": "Regulatory compliance value"
+    },
+    "academic": {
+      "opportunityScore": 9.3,
+      "marketOpportunity": "Medical research, health informatics, clinical studies",
+      "revenueUpside": "Research funding and IP value"
+    }
+  },
+  "childrenReferences": {
+    "l2Children": [],
+    "totalDescendants": 0,
+    "endpointReason": "Emerging market with high regulatory complexity - strategic L1 endpoint"
+  }
+}
+

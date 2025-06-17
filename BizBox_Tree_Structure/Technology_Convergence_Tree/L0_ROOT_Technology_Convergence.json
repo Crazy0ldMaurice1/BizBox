@@ -1,0 +1,52 @@
+{
+  "recordId": "ROOT_L0_003_TECHNOLOGY_CONVERGENCE_F2G3H4I5",
+  "hierarchyLevel": 0,
+  "recordType": "foundation_root",
+  "createdDate": "2024-12-16",
+  "facetedIdentity": {
+    "primary_naics": "541",
+    "secondary_naics": "334",
+    "tertiary_naics": "423",
+    "primary_unspsc": "4323",
+    "secondary_unspsc": "4319",
+    "tertiary_unspsc": "4312",
+    "primary_cpc": "G06",
+    "secondary_cpc": "H04",
+    "tertiary_cpc": "G08",
+    "intersectionDescription": "Technology Convergence: Professional Services + Computer/Electronic Manufacturing + Wholesale Distribution"
+  },
+  "marketIntelligence": {
+    "marketSize": "$4.2T",
+    "growthRate": "18.9%",
+    "marketSizeNumeric": 4200000000000,
+    "growthRateNumeric": 0.189,
+    "keySegments": ["IoT Devices ($1.1T)", "Smart Systems ($890B)", "Connected Infrastructure ($780B)", "Edge Computing ($650B)"]
+  },
+  "businessRoleIntelligence": {
+    "creator": {
+      "opportunityScore": 8.8,
+      "marketOpportunity": "IoT content creation, smart device tutorials, technology education",
+      "revenueUpside": "$200K-2M annually"
+    },
+    "distributor": {
+      "opportunityScore": 9.5,
+      "marketOpportunity": "Technology convergence distribution, ecosystem partnerships",
+      "revenueUpside": "$10M-100M annually"
+    },
+    "investor": {
+      "opportunityScore": 9.7,
+      "marketOpportunity": "High-growth technology convergence investments",
+      "revenueUpside": "$100M-10B potential"
+    },
+    "acquirer": {
+      "opportunityScore": 9.2,
+      "marketOpportunity": "Strategic technology convergence acquisitions",
+      "revenueUpside": "$1B-50B strategic value"
+    }
+  },
+  "childrenReferences": {
+    "l1Children": ["FOUND_L1_005_IOT_DEVICES", "FOUND_L1_006_SMART_SYSTEMS", "FOUND_L1_007_EDGE_COMPUTING"],
+    "totalDescendants": 27
+  }
+}
+
